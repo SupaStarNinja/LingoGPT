@@ -1,55 +1,76 @@
-import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import axios from 'axios'
-
+import { useState, useEffect } from 'react';
+import './App.css';
+import axios from 'axios';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [users, setUsers] = useState([])
+    const [userInput, setUserInput] = useState('');
+    const [yodaSpeech, setYodaSpeech] = useState('');
 
-  const fetchAPI = async () => {
-    const reponse = await axios.get("http://localhost:8080/api/users")
-    setUsers(reponse.data.users)
-  }
-
-  useEffect(() => {
-    fetchAPI()
-  }, []);
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-        {
-          users.map((user, index) => (
-            <div key={index}>
-              <span>{user}</span>
-              <br></br>
-            </div>
-          ))
+    useEffect(() => {
+        async function fetchUsers() {
+            const users = await exampleAPIRequest();
+            setUserInput(users);
         }
+        fetchUsers();
+    }, []);
+
+    async function exampleAPIRequest() {
+        try {
+            const response = await axios.get('http://localhost:8080/api/users');
+            return response.data.users;
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            return "Err";
+        }
+    }
+
+    const handleInputChange = (e) => {
+        setUserInput(e.target.value);
+    };
+
+    const getYodaSpeech = async (text: string) => {
+        // This function could call an API to convert text to Yoda speech
+        // For now, let's mock it by appending "Yoda says: " in front of the text
+        return `Yoda says: ${text.split('').reverse().join('')}`;
+    };
+
+    return (
+      <div className="App">
+        <div className="title-container widget">
+            <img
+              className="yoda-image"
+              src="../public/yoda_header.png"
+              alt="Yoda"
+            />
+            <div className="header">
+                <h1>Yoda Speech Converter</h1>
+                <p>Transform your text into speech that sounds like Yoda!</p>
+            </div>
+        </div>
+        <div className = 'widget-group'>
+            <div className="input-container widget">
+                <p>Input</p>
+                <textarea
+                    className="text-field"
+                    value={userInput}
+                    onChange={handleInputChange}
+                    placeholder="Type your sentence here..."
+                />
+            </div>
+
+            <div className="input-container widget">
+                <p>Output</p>
+                <textarea
+                  className="text-field"
+                  value={yodaSpeech}
+                  onChange={handleInputChange}
+                  readOnly
+                  placeholder=""
+                />
+            </div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    );
 }
 
-export default App
+export default App;
