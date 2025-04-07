@@ -1,12 +1,16 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from google import genai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 cors = CORS(app, origins='*')
 
-# Initialize the Gemini API client
-client = genai.Client(api_key='AIzaSyAUHjaH0PsHO3vjR2h-dRaghilt2LVdpDE')
+api_key = os.getenv('GEMINI_API_KEY')
+client = genai.Client(api_key=api_key)
 
 @app.route("/api/users", methods=['GET'])
 def users():
@@ -18,11 +22,9 @@ def users():
 
 @app.route("/api/yoda-chat", methods=['POST'])
 def yoda_chat():
-    # Get the user input from the request
     data = request.get_json()
     user_question = data.get('text', '')
     
-    # Process the input with Gemini API
     try:
         response = client.models.generate_content(
             model="gemini-2.0-flash", 
