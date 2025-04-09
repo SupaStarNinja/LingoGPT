@@ -33,7 +33,7 @@ This will:
 Once dependencies are installed, launch the full application with:
 
 ```bash
-./start.sh
+./run.sh
 ```
 
 This script will:
@@ -91,6 +91,6 @@ python -m venv server/venv
 ./install.sh
 
 # Each time you want to start the app
-./start.sh
+./run.sh
 ```
 n issue or submit a PR to improve the project!

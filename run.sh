@@ -40,5 +40,5 @@ echo "Starting web server..."
 npm run dev
 
 # Optional: When npm stops, you might want to stop the Python server:
-# echo "Stopping Python server..."
-# kill $PYTHON_PID
+echo "Stopping Python server..."
+kill $PYTHON_PID
