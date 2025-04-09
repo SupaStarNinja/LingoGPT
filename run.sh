@@ -35,9 +35,19 @@ sleep 2
 echo "Changing directory to the npm project folder..."
 cd client || { echo "Failed to change directory"; exit 1; }
 
-# Start the npm process
+# Start the npm process in the background
 echo "Starting web server..."
-npm run dev
+npm run dev &
+
+# Wait a moment for the dev server to start
+sleep 3
+
+# Open the default URL in the browser
+echo "Opening application in default browser..."
+open http://localhost:5173
+
+# Wait for the npm process to complete
+wait
 
 # Optional: When npm stops, you might want to stop the Python server:
 echo "Stopping Python server..."
