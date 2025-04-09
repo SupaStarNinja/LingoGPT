@@ -1,6 +1,5 @@
 {
   "name": "client",
-  "homepage": "https://supastarninja.github.io/LingoGPT",
   "private": true,
   "version": "0.0.0",
   "type": "module",

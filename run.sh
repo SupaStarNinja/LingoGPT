@@ -44,7 +44,11 @@ sleep 3
 
 # Open the default URL in the browser
 echo "Opening application in default browser..."
-open http://localhost:5173
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]; then
+    start http://localhost:5173
+else
+    open http://localhost:5173
+fi
 
 # Wait for the npm process to complete
 wait
