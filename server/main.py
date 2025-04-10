@@ -35,17 +35,11 @@ def load_training_data():
         return [], "", ""  # Return empty data if files can't be loaded
 
 def create_yoda_prompt(user_text):
-    training_pairs, wisdom_quotes, battle_dialogue = load_training_data()
+    wisdom_quotes, battle_dialogue = load_training_data()
     
     # Create prompt with examples from different sources
     prompt = "Convert the following text to sound like Yoda from Star Wars. Here are some examples:\n\n"
-    
-    # Add training pairs if available
-    if training_pairs:
-        for pair in training_pairs[:3]:  # Use first 3 examples
-            prompt += f"Original: {pair['input']}\n"
-            prompt += f"Yoda: {pair['output']}\n\n"
-    
+
     # Add wisdom quotes if available
     if wisdom_quotes:
         prompt += "Some of Yoda's wisdom:\n"
