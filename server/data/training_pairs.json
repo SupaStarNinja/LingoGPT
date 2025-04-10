@@ -1,0 +1,492 @@
+{
+    "examples": [
+        {
+            "input": "Are you afraid?",
+            "output": "Afraid are you?"
+        },
+        {
+            "input": "We can see through you.",
+            "output": "See through you, we can."
+        },
+        {
+            "input": "I think you are afraid to lose her.",
+            "output": "Afraid to lose her..I think."
+        },
+        {
+            "input": "Everything. Fear is the path to the dark side... fear leads to a Jedi's deepest commitment and serious mind. Then we will continue.",
+            "output": "Eveything. Fear is the path to the dark side... fear leads to A Jedi must have the deepest commitment, the most serious mind. I Then continue, we will."
+        },
+        {
+            "input": "You were correct, Qui-Gon.",
+            "output": "...Correct you were, Qui-Gon."
+        },
+        {
+            "input": "This boy's future is clouded. It is masked by his youth.",
+            "output": "Clouded, this boy's future is. Masked by his youth."
+        },
+        {
+            "input": "You have an apprentice, Qui-Gon. Taking on a second is impossible.",
+            "output": "An apprentice, you have, Qui-Gon. Impossible, to take on a second."
+        },
+        {
+            "input": "Are you ready so early? What do you know of readiness?",
+            "output": "Ready so early, are you? What know you of ready?"
+        },
+        {
+            "input": "We will keep our own council on who is ready. He has more to learn.",
+            "output": "Our own council we will keep on who is ready. More to learn, he"
+        },
+        {
+            "input": "We must draw out the Queen's attacker.",
+            "output": "And draw out the Queen's attacker."
+        },
+        {
+            "input": "Young Skywalker's fate will be decided later.",
+            "output": "Young Skywalker's fate will be decided later."
+        },
+        {
+            "input": "Do not train him. Take him with you, but do not train him!",
+            "output": "Train him not. Take him with you, but train him not!"
+        },
+        {
+            "input": "May the Force be with you.",
+            "output": "May the Force be with you."
+        },
+        {
+            "input": "The Council confers on you the level of Jedi Knight. But they agree the Chosen One may be the boy; nevertheless, I fear grave danger in Qui-Gon's defiance I sense in you. You do not need that. The Council agrees...",
+            "output": "Confer on you, the level of Jedi Knight the Coucil does. But agree The Chosen One the boy may be; nevertheless, grave danger I fear in Qui-Gon's defiance I sense in you. Need that, you do not. Agree, the Always two there are....no more...no less. A maste and an"
+        },
+        {
+            "input": "Premonitions... these visions you have... Do you speak of yourself or someone you know? Someone close to you?",
+            "output": "Premonitions . . . premonitions . . . Hmmmm . . . these visions you have . . . Yourself you speak of, or someone you know? . . . close to you?"
+        },
+        {
+            "input": "You must be careful when sensing the future, Anakin. The fear of loss is a path to the dark side.",
+            "output": "Careful you must be when sensing the future, Anakin. The fear of loss is a path to the dark side."
+        },
+        {
+            "input": "Death is natural. Rejoice for those who become one with the Force. Do not mourn or miss them. Attachment leads to jealousy—the shadow of greed.",
+            "output": "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them, do not. Miss them, do not. Attachment leads to jealousy. The shadow of greed, that is."
+        },
+        {
+            "input": "Train yourself to let go of everything you fear to lose.",
+            "output": "Train yourself to let go of everything you fear to lose."
+        },
+        {
+            "input": "The Council does not allow this appointment lightly. Chancellor Palpatine's move is disturbing.",
+            "output": "Allow this appointment lightly, the Council does not. Disturbing is this move by Chancellor Palpatine."
+        },
+        {
+            "input": "Grievous is hiding in the Outer Rim. You must sweep the outlying systems.",
+            "output": "Hiding in the Outer Rim, Grievous is. The outlying systems, you must sweep."
+        },
+        {
+            "input": "You must contact our spies, Master Kenobi, and then wait.",
+            "output": "Master Kenobi, our spies contact, you must, and then wait."
+        },
+        {
+            "input": "I will go. I have good relations with the Wookiees.",
+            "output": "Go, I will. Good relations with the Wookiees, I have."
+        },
+        {
+            "input": "He is too influenced by the Chancellor. There is much anger and pride in him.",
+            "output": "Too much under the sway of the Chancellor, he is. Much anger there is in him. Too much pride in his powers."
+        },
+        {
+            "input": "The prophecy may have been misread.",
+            "output": "A prophecy . . . that misread could have been."
+        },
+        {
+            "input": "I hope you are right. Now I will destroy the Droid armies on Kashyyyk. May the Force be with you.",
+            "output": "I hope right you are. And now destroy the Droid armies on Kashyyyk, I will. May the Force be with you."
+        },
+        {
+            "input": "We must act. Capturing General Grievous will end the war. Proceed quickly and decisively.",
+            "output": "Act on this, we must. The capture of General Grievous will end this war. Quickly and decisively we should proceed."
+        },
+        {
+            "input": "We need a Master with more experience.",
+            "output": "A Master is needed, with more experience."
+        },
+        {
+            "input": "My choice is Obi-Wan.",
+            "output": "Obi-Wan, my choice is."
+        },
+        {
+            "input": "I agree.",
+            "output": "Agree, I do."
+        },
+        {
+            "input": "Now is the time, Commander.",
+            "output": "Then now the time is, Commander."
+        },
+        {
+            "input": "This line of thought will lead us to a dark place. We must take great care.",
+            "output": "To a dark place this line of thought will carry us. Hmmmmm. . . . great care we must take."
+        },
+        {
+            "input": "This mud stinks. Give me a moment to bathe.",
+            "output": "Stink, this mud does. A moment to bathe, give me."
+        },
+        {
+            "input": "We are not far from the emergency ship. Hurry.",
+            "output": "Not far, are we, from the emergency ship. Quickly . . ."
+        },
+        {
+            "input": "Goodbye. I will miss Chewbacca and Tarfful. You are good friends. I have much gratitude and respect for your help.",
+            "output": "Good-bye. Chewbacca and Tarfful, miss you I will. Good friends you are. For your help, much gratitude and respect, I have."
+        },
+        {
+            "input": "These are dark times, Master Kenobi. It is good to see you.",
+            "output": "Master Kenobi, dark times are these. Good to see you. it is."
+        },
+        {
+            "input": "I barely escaped with the Wookiees' help.",
+            "output": "With the help of the Wookiees, barely escape, I did."
+        },
+        {
+            "input": "We have heard from no one.",
+            "output": "Heard from no one, have we."
+        },
+        {
+            "input": "We have received a coded retreat message.",
+            "output": "Received a coded retreat message, we have."
+        },
+        {
+            "input": "Do you suggest dismantling the coded signal?",
+            "output": "Suggest dismantling the coded signal, do you?"
+        },
+        {
+            "input": "I agree. We are in a dark place... more knowledge might guide us.",
+            "output": "I agree. In a dark place we find ourselves ... a little more knowledge might light our way."
+        },
+        {
+            "input": "If there is a special session of Congress, entering the Jedi Temple will be easier.",
+            "output": "If a special session of Congress there is, easier for us to enter the Jedi Temple it will be."
+        },
+        {
+            "input": "Dismantle the coded signal quickly. The group back there will soon be discovered.",
+            "output": "Dismantle the coded signal quickly. That group back there, soon discovered will be."
+        },
+        {
+            "input": "This Padawan was not killed by clones. A lightsaber killed him.",
+            "output": "Killed not by clones, this Padawan. By a lightsaber, he was."
+        },
+        {
+            "input": "Good... It will take the Clones a long time to discover the recalibration. Changing it back will take longer. Hurry.",
+            "output": "Good . . . For the Clones to discover the recalibration, a long time it will take. To change it back, longer still. Hurry."
+        },
+        {
+            "input": "If you go into the security recordings, you will only find pain.",
+            "output": "If into the security recordings you go, only pain will you find."
+        },
+        {
+            "input": "We must destroy the Sith.",
+            "output": "Destroy the Sith, we must."
+        },
+        {
+            "input": "You are not strong enough to fight Lord Sidious.",
+            "output": "To fight this Lord Sidious, strong enough, you are not."
+        },
+        {
+            "input": "Young Skywalker has been twisted by the dark side. The boy you trained is gone... consumed by Darth Vader.",
+            "output": "Twisted by the dark side, young Skywalker has become. The boy you trained, gone he is . . . Consumed by Darth Vader."
+        },
+        {
+            "input": "There is no time to question.",
+            "output": "To question, no time there is."
+        },
+        {
+            "input": "Use your feelings, Obi-Wan. You will find him. My task is to visit the new Emperor. May the Force be with you.",
+            "output": "Use your feelings, Obi-Wan, and find him, you will. Visit the new Emperor, my task is. May the Force be with you."
+        },
+        {
+            "input": "I hear you have a new apprentice. Emperor... or should I say Darth Sidious?",
+            "output": "I hear a new apprentice, you have. Emperor, or should I call you Darth Sidious."
+        },
+        {
+            "input": "Surprised?",
+            "output": "Surprised?"
+        },
+        {
+            "input": "Not if I have anything to say about it, Lord Sidious.",
+            "output": "Not if anything I have to say about it, Lord Sidious."
+        },
+        {
+            "input": "Your rule is at an end, and it was not short enough.",
+            "output": "At an end your rule is and not short enough it was, I must say."
+        },
+        {
+            "input": "If you are so powerful, why leave?",
+            "output": "If so powerful you are, why leave??"
+        },
+        {
+            "input": "Your faith in your new apprentice and the dark side may be misplaced.",
+            "output": "Faith in your new apprentice, misplaced may be, as is your faith in the dark side of the Force."
+        },
+        {
+            "input": "I will destroy you, just as your apprentice Master Kenobi will destroy you.",
+            "output": "Destroy you I will, just as Master Kenobi, your apprentice will destroy."
+        },
+        {
+            "input": "Hurry. We will need careful timing.",
+            "output": "Hurry. Careful timing we will need."
+        },
+        {
+            "input": "I must go into exile. I have failed.",
+            "output": "Into exile I must go. Failed, I have."
+        },
+        {
+            "input": "I have failed to stop the Sith Lord. There is still much to learn... Eternal consciousness... to become one with the Force and still have influence... It is a power greater than all.",
+            "output": "Failed to stop the Sith Lord, I have. Still much to learn, there is ... Eternal consciousness. . . . to become one with the Force, and influence still have . . . A power greater than all, it is."
+        },
+        {
+            "input": "You have become a great Jedi Master, Qui-Gon Jinn. I gratefully become your apprentice.",
+            "output": "A great Jedi Master, you have become, Qui-Gon Jinn. Your apprentice I gratefully become."
+        },
+        {
+            "input": "We must save them. They are our last hope.",
+            "output": "Save them, we must. They are our last hope."
+        },
+        {
+            "input": "She must still appear pregnant. The children must be kept hidden and safe.",
+            "output": "Pregnant, she must still appear. Hidden, safe, the children must be kept."
+        },
+        {
+            "input": "They should be split up.",
+            "output": "Split up, they should be."
+        },
+        {
+            "input": "Send him to Tatooine. To his family.",
+            "output": "To Tatooine. To his family, send him."
+        },
+        {
+            "input": "The Force runs strong in the Skywalker line. We can hope... It is done. We will disappear until the time is right.",
+            "output": "Strong the Force runs, in the Skywalker line. Hope, we can . . . Done, it is. Until the time is right, disappear we will."
+        },
+        {
+            "input": "Wait a moment, Master Kenobi. I have training for you during your solitude on Tatooine.",
+            "output": "Master Kenobi, wait a moment. In your solitude on Tatooine, training I have for you."
+        },
+        {
+            "input": "An old friend has learned the path to immortality.",
+            "output": "An old friend has learned the path to immortality."
+        },
+        {
+            "input": "Qui-Gon Jinn, your old Master, has returned from the netherworld of the Force to train me.",
+            "output": "One who has returned from the netherworld of the Force to train me . . . your old Master, Qui-Gon Jinn."
+        },
+        {
+            "input": "He studied the secret of the Ancient Order of the Whills. I will teach you how to commune with him.",
+            "output": "The secret of the Ancient Order of the Whills, he studied. How to commune with him. I will teach you."
+        },
+        {
+            "input": "He will train you to join the Force. You will retain your consciousness and perhaps even your physical form.",
+            "output": "How to join the Force, he will train you. Your consciousness you will retain, when one with the Force. Even your physical self, perhaps."
+        },
+        {
+            "input": "Hmm. He has much anger like his father.",
+            "output": "Hmmm. Much anger in him, like his father."
+        },
+        {
+            "input": "Hah. He is not ready.",
+            "output": "Hah. He is not ready."
+        },
+        {
+            "input": "Are you ready? What do you know of readiness?",
+            "output": "Ready, are you? What know you of ready?"
+        },
+        {
+            "input": "For eight hundred years, I have trained Jedi.",
+            "output": "For eight hundred years have I trained Jedi."
+        },
+        {
+            "input": "I will decide who is to be trained!",
+            "output": "My own counsel will I keep on who is to be trained!"
+        },
+        {
+            "input": "A Jedi must have deep commitment and a serious mind.",
+            "output": "A Jedi must have the deepest commitment, the most serious mind."
+        },
+        {
+            "input": "I have watched this one for a long time.",
+            "output": "This one a long time have I watched."
+        },
+        {
+            "input": "All his life, he has looked to the future, never focused on the present.",
+            "output": "All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh! Excitement. Heh! A Jedi craves not these things. You are reckless!"
+        },
+        {
+            "input": "He is too old to begin training.",
+            "output": "He is too old. Yes, too old to begin the training."
+        },
+        {
+            "input": "Will he finish what he starts?",
+            "output": "Will he finished what he begins?"
+        },
+        {
+            "input": "Oh, you will be. You will be.",
+            "output": "Oh, you will be. You will be."
+        },
+        {
+            "input": "Run! A Jedi's strength comes from the Force. Beware the dark side—anger, fear, aggression. They flow easily and join you in battle. Starting down the dark path dooms you, as it did Obi-Wan's apprentice.",
+            "output": "Run! Yes. A Jedi's strength flows from the Force. But beware of the dark side. Anger... fear... aggression. The dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan's apprentice."
+        },
+        {
+            "input": "No... quicker, easier, more seductive.",
+            "output": "No... no... no. Quicker, easier, more seductive."
+        },
+        {
+            "input": "No... it's quicker, easier, more seductive.",
+            "output": "No... no... no. Quicker, easier, more seductive."
+        },
+        {
+            "input": "You will know when you are calm, at peace, and passive. A Jedi uses the Force for knowledge and defense, never for attack.",
+            "output": "You will know. When you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack."
+        },
+        {
+            "input": "No, there is no 'why.' I will teach you nothing more today. Clear your mind of questions.",
+            "output": "No, no, there is no why. Nothing more will I teach you today. Clear your mind of questions. Mmm. Mmmmmmmm."
+        },
+        {
+            "input": "That place is strong with the dark side. It is a domain of evil. You must go in.",
+            "output": "That place... is strong with the dark side of the Force. A domain of evil it is. In you must go."
+        },
+        {
+            "input": "Take only what you need.",
+            "output": "Only what you take with you."
+        },
+        {
+            "input": "You will not need your weapons.",
+            "output": "Your weapons... you will not need them."
+        },
+        {
+            "input": "Use the Force. Yes...",
+            "output": "Use the Force. Yes..."
+        },
+        {
+            "input": "Now, feel the stone.",
+            "output": "Now... the stone. Feel it."
+        },
+        {
+            "input": "You are so certain. You always say it cannot be done. Do you hear nothing I say?",
+            "output": "So certain are you. Always with you it cannot be done. Hear you nothing that I say?"
+        },
+        {
+            "input": "No! It is no different! Only in your mind. Unlearn what you have learned.",
+            "output": "No! No different! Only different in your mind. You must unlearn what you have learned."
+        },
+        {
+            "input": "Do not try. Either do it or do not. There is no trying.",
+            "output": "No! Try not. Do. Or do not. There is no try."
+        },
+        {
+            "input": "Size does not matter. Look at me. Do you judge me by my size?",
+            "output": "Size matters not. Look at me. Judge me by my size, do you? Hm? Mmmm."
+        },
+        {
+            "input": "And you should not. The Force is my ally—a powerful one. Life creates and grows it. It surrounds and binds us. We are luminous beings, not crude matter. Feel it everywhere!",
+            "output": "And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we... ... not this crude matter. You must feel the Force around you. Here, between you... me... the tree... the rock... everywhere! Yes, even between this land and that ship!"
+        },
+        {
+            "input": "That is why you fail.",
+            "output": "That is why you fail."
+        },
+        {
+            "input": "Concentrate and feel the Force flow. Calm yourself. Through it, you will see the past, future, and old friends.",
+            "output": "Concentrate... feel the Force flow. Yes. Good. Calm, yes. Through the Force, things you will see. Other places. The future... the past. Old friends long gone."
+        },
+        {
+            "input": "Control! You must learn control.",
+            "output": "Hmm. Control, control. You must learn control."
+        },
+        {
+            "input": "You have friends there.",
+            "output": "Mmm. Friends you have there."
+        },
+        {
+            "input": "You see the future.",
+            "output": "It is the future you see."
+        },
+        {
+            "input": "The future is difficult to see. It is always in motion.",
+            "output": "Difficult to see. Always in motion is the future."
+        },
+        {
+            "input": "You must decide how to best serve them. Leaving now could help them but destroy their sacrifices.",
+            "output": "Decide you must how to serve them best. If you leave now, help them you could. But you would destroy all for which they have fought and suffered."
+        },
+        {
+            "input": "Luke! Complete your training!",
+            "output": "Luke! You must complete the training."
+        },
+        {
+            "input": "Do not go!",
+            "output": "You must not go!"
+        },
+        {
+            "input": "Listen to Obi-Wan. Remember your failure at the cave!",
+            "output": "Yes, yes. To Obi-Wan you listen. The cave. Remember your failure at the cave!"
+        },
+        {
+            "input": "They must be stopped. Everything depends on this. Only a trained Jedi can defeat Vader and the Emperor.",
+            "output": "Stopped they must be. On this all depends. Only a fully trained Jedi Knight with the Force as his ally will conquer Vader and his Emperor. If you end your training now, if you choose the quick and easy path, as Vader did, you will become an agent of evil."
+        },
+        {
+            "input": "If you honor their cause... yes!",
+            "output": "If you honor what they fight for ... yes!"
+        },
+        {
+            "input": "Vader is strong. Remember your training. It can save you.",
+            "output": "Strong is Vader. Mind what you have learned. Save you it can."
+        },
+        {
+            "input": "I told you he is reckless. Now things are worse.",
+            "output": "Told you, I did. Reckless is he. Now matters are worse."
+        },
+        {
+            "input": "No. There is another hope.",
+            "output": "No. There is another."
+        },
+        {
+            "input": "Do I look so old to your young eyes?",
+            "output": "Hmm. That face you make. Look I so old to young eyes?"
+        },
+        {
+            "input": "I will rest soon—forever. I have earned it.",
+            "output": "Soon will I rest. Yes, forever sleep. Earned it, I have."
+        },
+        {
+            "input": "I am strong with the Force, but not strong enough. My time is ending. Such is the way of the Force.",
+            "output": "Strong am I with the Force... but not that strong! Twilight is upon me and soon night must fall. That is the way of things... the way of the Force."
+        },
+        {
+            "input": "You need no more training. You already know what you must.",
+            "output": "No more training do you require. Already know you that which you need."
+        },
+        {
+            "input": "I need rest. Yes... rest.",
+            "output": "Mmm... rest I need. Yes... rest."
+        },
+        {
+            "input": "He is your father.",
+            "output": "Your father he is."
+        },
+        {
+            "input": "Did he tell you?",
+            "output": "Told you, did he?"
+        },
+        {
+            "input": "This is unexpected and unfortunate...",
+            "output": "Unexpected this is, and unfortunate..."
+        },
+        {
+            "input": "Remember: A Jedi's strength comes from the Force. But anger, fear, and aggression lead to the dark side.",
+            "output": "Remember, a Jedi's strength flows from the Force. But beware. Anger, fear, aggression. The dark side are they. Once you start down the dark path, forever will it dominate your destiny."
+        },
+        {
+            "input": "Luke... do not underestimate the Emperor. You will suffer your father's fate. When I am gone, you will be the last Jedi. Pass on what you learned. There is another Skywalker.",
+            "output": "Luke...Luke...Do not...Do not underestimate the powers of the Emperor, or suffer your father's fate, you will. Luke, when gone am I , the last of the Jedi will you be. Luke, the Force runs strong in your family. Pass on what you have learned, Luke... There is...another...Sky...Sky...walker."
+        }
+    ]
+}
