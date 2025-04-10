@@ -18,8 +18,8 @@ def load_training_data():
         data_dir = os.path.join(os.path.dirname(__file__), 'data')
         
         # Load JSON training pairs
-        with open(os.path.join(data_dir, 'training_pairs.json'), 'r') as f:
-            training_pairs = json.load(f)['examples']
+        # with open(os.path.join(data_dir, 'training_pairs.json'), 'r') as f:
+        #     training_pairs = json.load(f)['examples']
         
         # Load wisdom quotes
         with open(os.path.join(data_dir, 'wisdom_quotes.txt'), 'r') as f:
@@ -29,7 +29,7 @@ def load_training_data():
         with open(os.path.join(data_dir, 'battle_dialogue.txt'), 'r') as f:
             battle_dialogue = f.read().strip()
         
-        return training_pairs, wisdom_quotes, battle_dialogue
+        return wisdom_quotes, battle_dialogue
     except Exception as e:
         print(f"Error loading training data: {str(e)}")
         return [], "", ""  # Return empty data if files can't be loaded
