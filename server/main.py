@@ -11,7 +11,7 @@ app = Flask(__name__)
 cors = CORS(app, origins='*')
 
 # Initialize OpenAI client
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 
 def load_training_data():
     try:
@@ -74,7 +74,7 @@ def yoda_chat():
         if not user_question:
             return jsonify({"error": "No text provided"}), 400
             
-        if not os.getenv('OPENAI_API_KEY'):
+        if not os.environ.get('OPENAI_API_KEY'):
             return jsonify({"error": "OpenAI API key not configured"}), 500
         
         response = client.chat.completions.create(
