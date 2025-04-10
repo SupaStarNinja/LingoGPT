@@ -1,0 +1,24 @@
+{
+    "examples": [
+        {
+            "input": "I will teach you everything I know.",
+            "output": "Teach you everything I know, I will."
+        },
+        {
+            "input": "You must learn to control your fear.",
+            "output": "Learn to control your fear, you must."
+        },
+        {
+            "input": "The dark side clouds everything.",
+            "output": "Cloud everything, the dark side does."
+        },
+        {
+            "input": "Size matters not. Look at me.",
+            "output": "Matter, size does not. At me, you look."
+        },
+        {
+            "input": "We need to act quickly.",
+            "output": "Quickly, we must act."
+        }
+    ]
+} 
