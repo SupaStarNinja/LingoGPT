@@ -84,11 +84,29 @@ textarea {
   height: 100%;  /* Takes the full height of the input container */
   border-radius: 15px;
   border: 4px solid #6c584c;
-  /*background-color: #272727;*/
+  border-bottom: none;  /* Remove the bottom border */
   box-sizing: border-box;
   resize: none;  /* Disables resizing */
   overflow-y: auto;  /* Allow scroll inside the text area */
 }
+
+.convert-button {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.submit-button {
+  border: 4px solid #6c584c;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  transition: border-color 0.3s;  /* Smoothly transition the border color */
+}
+
+.submit-button:hover {
+  border-color: #12ff00;       /* Change the border color on hover */
+  border-top-color: #12ff00;    /* Ensure the top border also adopts the new color */
+}
+
 
 .convert-btn {
   background-color: #4CAF50;

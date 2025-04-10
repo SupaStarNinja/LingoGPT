@@ -45,7 +45,7 @@ function App() {
                 <div className="input-container widget">
                     <p>Input</p>
                     <textarea
-                        className="text-field"
+                        className="convert-button"
                         value={userInput}
                         onChange={handleInputChange}
                         placeholder="Type your sentence here..."
@@ -62,7 +62,6 @@ function App() {
                 <div className="input-container widget">
                     <p>Output</p>
                     <textarea
-                        className="text-field"
                         value={yodaSpeech}
                         readOnly
                         placeholder="Yoda's wisdom will appear here..."
