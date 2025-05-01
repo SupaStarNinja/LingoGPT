@@ -1,379 +1,380 @@
 {
     "examples": [
         {
-            "input": "Are you afraid?",
+            "input": "Are|aux you|nsubj afraid|root ?|punct",
             "output": "Afraid are you?"
         },
         {
-            "input": "We can see through you.",
+            "input": "We|nsubj can|aux see|root through|prep you|pobj .|punct",
             "output": "See through you, we can."
         },
         {
-            "input": "I think you are afraid to lose her.",
+            "input": "I|nsubj think|root you|nsubj are|cop afraid|acomp to|part lose|xcomp her|dobj .|punct",
             "output": "Afraid to lose her..I think."
         },
         {
-            "input": "Everything. Fear is the path to the dark side... fear leads to a Jedi's deepest commitment and serious mind. Then we will continue.",
+            "input": "Everything|nsubj .|punct Fear|nsubj is|cop the|det path|root to|prep the|det dark|amod side|pobj ...|punct fear|nsubj leads|root to|prep a|det Jedi's|poss deepest|amod commitment|pobj and|cc serious|amod mind|conj .|punct Then|advmod we|nsubj will|aux continue|root .|punct",
             "output": "Eveything. Fear is the path to the dark side... fear leads to A Jedi must have the deepest commitment, the most serious mind. I Then continue, we will."
         },
         {
-            "input": "You were correct, Qui-Gon.",
+            "input": "You|nsubj were|cop correct|root ,|punct Qui-Gon|vocative .|punct",
             "output": "...Correct you were, Qui-Gon."
         },
         {
-            "input": "This boy's future is clouded. It is masked by his youth.",
+            "input": "This|det boy's|poss future|nsubj is|cop clouded|root .|punct It|nsubj is|cop masked|root by|prep his|poss youth|pobj .|punct",
             "output": "Clouded, this boy's future is. Masked by his youth."
         },
-        {
-            "input": "You have an apprentice, Qui-Gon. Taking on a second is impossible.",
+        {   
+            "input": "You|nsubj have|root an|det apprentice|dobj ,|punct Qui-Gon|vocative .|punct Taking|csubj on|prep a|det second|pobj is|cop impossible|root .|punct",
             "output": "An apprentice, you have, Qui-Gon. Impossible, to take on a second."
         },
         {
-            "input": "Are you ready so early? What do you know of readiness?",
+            "input": "Are|aux you|nsubj ready|root so|advmod early|advmod ?|punct What|dobj do|aux you|nsubj know|root of|prep readiness|pobj ?|punct",
             "output": "Ready so early, are you? What know you of ready?"
         },
         {
-            "input": "We will keep our own council on who is ready. He has more to learn.",
+            "input": "We|nsubj will|aux keep|root our|poss own|amod council|dobj on|prep who|nsubj is|cop ready|acomp .|punct He|nsubj has|root more|dobj to|part learn|xcomp .|punct",
             "output": "Our own council we will keep on who is ready. More to learn, he"
         },
         {
-            "input": "We must draw out the Queen's attacker.",
+            "input": "We|nsubj must|aux draw|root out|prt the|det Queen's|poss attacker|dobj .|punct",
             "output": "And draw out the Queen's attacker."
         },
+
         {
-            "input": "Young Skywalker's fate will be decided later.",
+            "input": "Young|amod Skywalker's|poss fate|nsubj will|aux be|cop decided|root later|advmod .|punct",
             "output": "Young Skywalker's fate will be decided later."
         },
         {
-            "input": "Do not train him. Take him with you, but do not train him!",
+            "input": "Do|aux not|neg train|root him|dobj .|punct Take|root him|dobj with|prep you|pobj ,|punct but|cc do|aux not|neg train|conj him|dobj !|punct",
             "output": "Train him not. Take him with you, but train him not!"
         },
         {
-            "input": "May the Force be with you.",
+            "input": "May|aux the|det Force|nsubj be|cop with|prep you|pobj .|punct",
             "output": "May the Force be with you."
         },
         {
-            "input": "The Council confers on you the level of Jedi Knight. But they agree the Chosen One may be the boy; nevertheless, I fear grave danger in Qui-Gon's defiance I sense in you. You do not need that. The Council agrees...",
+            "input": "The|det Council|nsubj confers|root on|prep you|pobj the|det level|dobj of|prep Jedi|compound Knight|pobj .|punct But|cc they|nsubj agree|root the|det Chosen|amod One|nsubj may|aux be|cop the|det boy|attr ;|punct nevertheless|advmod ,|punct I|nsubj fear|root grave|amod danger|dobj in|prep Qui-Gon's|poss defiance|pobj I|nsubj sense|root in|prep you|pobj .|punct You|nsubj do|aux not|neg need|root that|dobj .|punct The|det Council|nsubj agrees|root ...|punct",
             "output": "Confer on you, the level of Jedi Knight the Coucil does. But agree The Chosen One the boy may be; nevertheless, grave danger I fear in Qui-Gon's defiance I sense in you. Need that, you do not. Agree, the Always two there are....no more...no less. A maste and an"
         },
         {
-            "input": "Premonitions... these visions you have... Do you speak of yourself or someone you know? Someone close to you?",
+            "input": "Premonitions|nsubj ...|punct these|det visions|obj you|nsubj have|root ...|punct Do|aux you|nsubj speak|root of|prep yourself|pobj or|cc someone|pobj you|nsubj know|relcl ?|punct Someone|nsubj close|acomp to|prep you|pobj ?|punct",
             "output": "Premonitions . . . premonitions . . . Hmmmm . . . these visions you have . . . Yourself you speak of, or someone you know? . . . close to you?"
         },
         {
-            "input": "You must be careful when sensing the future, Anakin. The fear of loss is a path to the dark side.",
+            "input": "You|nsubj must|aux be|cop careful|root when|advmod sensing|advcl the|det future|dobj ,|punct Anakin|vocative .|punct The|det fear|nsubj of|prep loss|pobj is|cop a|det path|root to|prep the|det dark|amod side|pobj .|punct",
             "output": "Careful you must be when sensing the future, Anakin. The fear of loss is a path to the dark side."
         },
         {
-            "input": "Death is natural. Rejoice for those who become one with the Force. Do not mourn or miss them. Attachment leads to jealousy—the shadow of greed.",
+            "input": "Death|nsubj is|cop natural|root .|punct Rejoice|root for|prep those|pobj who|nsubj become|relcl one|acomp with|prep the|det Force|pobj .|punct Do|aux not|neg mourn|root or|cc miss|conj them|dobj .|punct Attachment|nsubj leads|root to|prep jealousy|pobj —|punct the|det shadow|appos of|prep greed|pobj .|punct",
             "output": "Death is a natural part of life. Rejoice for those around you who transform into the Force. Mourn them, do not. Miss them, do not. Attachment leads to jealousy. The shadow of greed, that is."
         },
         {
-            "input": "Train yourself to let go of everything you fear to lose.",
+            "input": "Train|root yourself|dobj to|part let|xcomp go|compound of|prep everything|pobj you|nsubj fear|relcl to|part lose|xcomp .|punct",
             "output": "Train yourself to let go of everything you fear to lose."
         },
         {
-            "input": "The Council does not allow this appointment lightly. Chancellor Palpatine's move is disturbing.",
+            "input": "The|det Council|nsubj does|aux not|neg allow|root this|det appointment|dobj lightly|advmod .|punct Chancellor|poss Palpatine's|poss move|nsubj is|cop disturbing|root .|punct",
             "output": "Allow this appointment lightly, the Council does not. Disturbing is this move by Chancellor Palpatine."
         },
         {
-            "input": "Grievous is hiding in the Outer Rim. You must sweep the outlying systems.",
+            "input": "Grievous|nsubj is|aux hiding|root in|prep the|det Outer|amod Rim|pobj .|punct You|nsubj must|aux sweep|root the|det outlying|amod systems|dobj .|punct",
             "output": "Hiding in the Outer Rim, Grievous is. The outlying systems, you must sweep."
         },
         {
-            "input": "You must contact our spies, Master Kenobi, and then wait.",
+            "input": "You|nsubj must|aux contact|root our|poss spies|dobj ,|punct Master|compound Kenobi|vocative ,|punct and|cc then|advmod wait|conj .|punct",
             "output": "Master Kenobi, our spies contact, you must, and then wait."
         },
         {
-            "input": "I will go. I have good relations with the Wookiees.",
+            "input": "I|nsubj will|aux go|root .|punct I|nsubj have|root good|amod relations|dobj with|prep the|det Wookiees|pobj .|punct",
             "output": "Go, I will. Good relations with the Wookiees, I have."
         },
         {
-            "input": "He is too influenced by the Chancellor. There is much anger and pride in him.",
+            "input": "He|nsubj is|cop too|advmod influenced|root by|prep the|det Chancellor|pobj .|punct There|expl is|root much|amod anger|nsubj and|cc pride|conj in|prep him|pobj .|punct",
             "output": "Too much under the sway of the Chancellor, he is. Much anger there is in him. Too much pride in his powers."
         },
         {
-            "input": "The prophecy may have been misread.",
+            "input": "The|det prophecy|nsubj may|aux have|aux been|aux misread|root .|punct",
             "output": "A prophecy . . . that misread could have been."
         },
         {
-            "input": "I hope you are right. Now I will destroy the Droid armies on Kashyyyk. May the Force be with you.",
+            "input": "I|nsubj hope|root you|nsubj are|cop right|acomp .|punct Now|advmod I|nsubj will|aux destroy|root the|det Droid|compound armies|dobj on|prep Kashyyyk|pobj .|punct May|aux the|det Force|nsubj be|cop with|prep you|pobj .|punct",
             "output": "I hope right you are. And now destroy the Droid armies on Kashyyyk, I will. May the Force be with you."
         },
         {
-            "input": "We must act. Capturing General Grievous will end the war. Proceed quickly and decisively.",
+            "input": "We|nsubj must|aux act|root .|punct Capturing|csubj General|compound Grievous|nsubj will|aux end|root the|det war|dobj .|punct Proceed|root quickly|advmod and|cc decisively|conj .|punct",
             "output": "Act on this, we must. The capture of General Grievous will end this war. Quickly and decisively we should proceed."
         },
         {
-            "input": "We need a Master with more experience.",
+            "input": "We|nsubj need|root a|det Master|dobj with|prep more|amod experience|pobj .|punct",
             "output": "A Master is needed, with more experience."
         },
         {
-            "input": "My choice is Obi-Wan.",
+            "input": "My|poss choice|nsubj is|cop Obi-Wan|root .|punct",
             "output": "Obi-Wan, my choice is."
         },
         {
-            "input": "I agree.",
+            "input": "I|nsubj agree|root .|punct",
             "output": "Agree, I do."
         },
         {
-            "input": "Now is the time, Commander.",
+            "input": "Now|advmod is|cop the|det time|root ,|punct Commander|vocative .|punct",
             "output": "Then now the time is, Commander."
         },
         {
-            "input": "This line of thought will lead us to a dark place. We must take great care.",
+            "input": "This|det line|nsubj of|prep thought|pobj will|aux lead|root us|dobj to|prep a|det dark|amod place|pobj .|punct We|nsubj must|aux take|root great|amod care|dobj .|punct",
             "output": "To a dark place this line of thought will carry us. Hmmmmm. . . . great care we must take."
         },
         {
-            "input": "This mud stinks. Give me a moment to bathe.",
+            "input": "This|det mud|nsubj stinks|root .|punct Give|root me|iobj a|det moment|dobj to|part bathe|xcomp .|punct",
             "output": "Stink, this mud does. A moment to bathe, give me."
         },
         {
-            "input": "We are not far from the emergency ship. Hurry.",
+            "input": "We|nsubj are|cop not|neg far|root from|prep the|det emergency|amod ship|pobj .|punct Hurry|root .|punct",
             "output": "Not far, are we, from the emergency ship. Quickly . . ."
         },
         {
-            "input": "Goodbye. I will miss Chewbacca and Tarfful. You are good friends. I have much gratitude and respect for your help.",
+            "input": "Goodbye|intj .|punct I|nsubj will|aux miss|root Chewbacca|dobj and|cc Tarfful|conj .|punct You|nsubj are|cop good|amod friends|root .|punct I|nsubj have|root much|amod gratitude|dobj and|cc respect|conj for|prep your|poss help|pobj .|punct",
             "output": "Good-bye. Chewbacca and Tarfful, miss you I will. Good friends you are. For your help, much gratitude and respect, I have."
         },
         {
-            "input": "These are dark times, Master Kenobi. It is good to see you.",
+            "input": "These|det are|cop dark|amod times|root ,|punct Master|compound Kenobi|vocative .|punct It|nsubj is|cop good|acomp to|part see|xcomp you|dobj .|punct",
             "output": "Master Kenobi, dark times are these. Good to see you. it is."
         },
         {
-            "input": "I barely escaped with the Wookiees' help.",
+            "input": "I|nsubj barely|advmod escaped|root with|prep the|det Wookiees'|poss help|pobj .|punct",
             "output": "With the help of the Wookiees, barely escape, I did."
         },
         {
-            "input": "We have heard from no one.",
+            "input": "We|nsubj have|aux heard|root from|prep no|det one|pobj .|punct",
             "output": "Heard from no one, have we."
         },
         {
-            "input": "We have received a coded retreat message.",
+            "input": "We|nsubj have|aux received|root a|det coded|amod retreat|compound message|dobj .|punct",
             "output": "Received a coded retreat message, we have."
         },
         {
-            "input": "Do you suggest dismantling the coded signal?",
+            "input": "Do|aux you|nsubj suggest|root dismantling|dobj the|det coded|amod signal|dobj ?|punct",
             "output": "Suggest dismantling the coded signal, do you?"
         },
         {
-            "input": "I agree. We are in a dark place... more knowledge might guide us.",
+            "input": "I|nsubj agree|root .|punct We|nsubj are|cop in|prep a|det dark|amod place|pobj ...|punct more|amod knowledge|nsubj might|aux guide|root us|dobj .|punct",
             "output": "I agree. In a dark place we find ourselves ... a little more knowledge might light our way."
         },
         {
-            "input": "If there is a special session of Congress, entering the Jedi Temple will be easier.",
+            "input": "If|sconj there|expl is|root a|det special|amod session|nsubj of|prep Congress|pobj ,|punct entering|csubj the|det Jedi|compound Temple|nsubj will|aux be|cop easier|root .|punct",
             "output": "If a special session of Congress there is, easier for us to enter the Jedi Temple it will be."
         },
         {
-            "input": "Dismantle the coded signal quickly. The group back there will soon be discovered.",
+            "input": "Dismantle|root the|det coded|amod signal|dobj quickly|advmod .|punct The|det group|nsubj back|advmod there|advmod will|aux soon|advmod be|aux discovered|root .|punct",
             "output": "Dismantle the coded signal quickly. That group back there, soon discovered will be."
         },
         {
-            "input": "This Padawan was not killed by clones. A lightsaber killed him.",
+            "input": "This|det Padawan|nsubj was|aux not|neg killed|root by|prep clones|pobj .|punct A|det lightsaber|nsubj killed|root him|dobj .|punct",
             "output": "Killed not by clones, this Padawan. By a lightsaber, he was."
         },
         {
-            "input": "Good... It will take the Clones a long time to discover the recalibration. Changing it back will take longer. Hurry.",
+            "input": "Good|intj ...|punct It|nsubj will|aux take|root the|det Clones|dobj a|det long|amod time|npadvmod to|part discover|xcomp the|det recalibration|dobj .|punct Changing|csubj it|dobj back|advmod will|aux take|root longer|advmod .|punct Hurry|root .|punct",
             "output": "Good . . . For the Clones to discover the recalibration, a long time it will take. To change it back, longer still. Hurry."
         },
         {
-            "input": "If you go into the security recordings, you will only find pain.",
+            "input": "If|sconj you|nsubj go|advcl into|prep the|det security|compound recordings|pobj ,|punct you|nsubj will|aux only|advmod find|root pain|dobj .|punct",
             "output": "If into the security recordings you go, only pain will you find."
         },
         {
-            "input": "We must destroy the Sith.",
+            "input": "We|nsubj must|aux destroy|root the|det Sith|dobj .|punct",
             "output": "Destroy the Sith, we must."
         },
         {
-            "input": "You are not strong enough to fight Lord Sidious.",
+            "input": "You|nsubj are|cop not|neg strong|acomp enough|advmod to|part fight|xcomp Lord|compound Sidious|dobj .|punct",
             "output": "To fight this Lord Sidious, strong enough, you are not."
         },
         {
-            "input": "Young Skywalker has been twisted by the dark side. The boy you trained is gone... consumed by Darth Vader.",
+            "input": "Young|amod Skywalker|nsubj has|aux been|aux twisted|root by|prep the|det dark|amod side|pobj .|punct The|det boy|nsubj you|nsubj trained|relcl is|cop gone|root ...|punct consumed|root by|prep Darth|compound Vader|pobj .|punct",
             "output": "Twisted by the dark side, young Skywalker has become. The boy you trained, gone he is . . . Consumed by Darth Vader."
         },
         {
-            "input": "There is no time to question.",
+            "input": "There|expl is|root no|det time|nsubj to|part question|xcomp .|punct",
             "output": "To question, no time there is."
         },
         {
-            "input": "Use your feelings, Obi-Wan. You will find him. My task is to visit the new Emperor. May the Force be with you.",
+            "input": "Use|root your|poss feelings|dobj ,|punct Obi-Wan|vocative .|punct You|nsubj will|aux find|root him|dobj .|punct My|poss task|nsubj is|cop to|part visit|xcomp the|det new|amod Emperor|dobj .|punct May|aux the|det Force|nsubj be|cop with|prep you|pobj .|punct",
             "output": "Use your feelings, Obi-Wan, and find him, you will. Visit the new Emperor, my task is. May the Force be with you."
         },
         {
-            "input": "I hear you have a new apprentice. Emperor... or should I say Darth Sidious?",
+            "input": "I|nsubj hear|root you|nsubj have|root a|det new|amod apprentice|dobj .|punct Emperor|vocative ...|punct or|cc should|aux I|nsubj say|root Darth|compound Sidious|dobj ?|punct",
             "output": "I hear a new apprentice, you have. Emperor, or should I call you Darth Sidious."
         },
         {
-            "input": "Surprised?",
+            "input": "Surprised|root ?|punct",
             "output": "Surprised?"
         },
         {
-            "input": "Not if I have anything to say about it, Lord Sidious.",
+            "input": "Not|neg if|sconj I|nsubj have|root anything|dobj to|part say|xcomp about|prep it|pobj ,|punct Lord|compound Sidious|vocative .|punct",
             "output": "Not if anything I have to say about it, Lord Sidious."
         },
         {
-            "input": "Your rule is at an end, and it was not short enough.",
+            "input": "Your|poss rule|nsubj is|cop at|prep an|det end|pobj ,|punct and|cc it|nsubj was|cop not|neg short|acomp enough|advmod .|punct",
             "output": "At an end your rule is and not short enough it was, I must say."
         },
         {
-            "input": "If you are so powerful, why leave?",
+            "input": "If|sconj you|nsubj are|cop so|advmod powerful|acomp ,|punct why|advmod leave|root ?|punct",
             "output": "If so powerful you are, why leave??"
         },
         {
-            "input": "Your faith in your new apprentice and the dark side may be misplaced.",
+            "input": "Your|poss faith|nsubj in|prep your|poss new|amod apprentice|pobj and|cc the|det dark|amod side|conj may|aux be|cop misplaced|root .|punct",
             "output": "Faith in your new apprentice, misplaced may be, as is your faith in the dark side of the Force."
         },
         {
-            "input": "I will destroy you, just as your apprentice Master Kenobi will destroy you.",
+            "input": "I|nsubj will|aux destroy|root you|dobj ,|punct just|advmod as|mark your|poss apprentice|nsubj Master|compound Kenobi|appos will|aux destroy|advcl you|dobj .|punct",
             "output": "Destroy you I will, just as Master Kenobi, your apprentice will destroy."
         },
         {
-            "input": "Hurry. We will need careful timing.",
+            "input": "Hurry|root .|punct We|nsubj will|aux need|root careful|amod timing|dobj .|punct",
             "output": "Hurry. Careful timing we will need."
         },
         {
-            "input": "I must go into exile. I have failed.",
+            "input": "I|nsubj must|aux go|root into|prep exile|pobj .|punct I|nsubj have|aux failed|root .|punct",
             "output": "Into exile I must go. Failed, I have."
         },
         {
-            "input": "I have failed to stop the Sith Lord. There is still much to learn... Eternal consciousness... to become one with the Force and still have influence... It is a power greater than all.",
+            "input": "I|nsubj have|aux failed|root to|part stop|xcomp the|det Sith|compound Lord|dobj .|punct There|expl is|root still|advmod much|nsubj to|part learn|xcomp ...|punct Eternal|amod consciousness|nsubj ...|punct to|part become|xcomp one|acomp with|prep the|det Force|pobj and|cc still|advmod have|conj influence|dobj ...|punct It|nsubj is|cop a|det power|root greater|acomp than|prep all|pobj .|punct",
             "output": "Failed to stop the Sith Lord, I have. Still much to learn, there is ... Eternal consciousness. . . . to become one with the Force, and influence still have . . . A power greater than all, it is."
         },
         {
-            "input": "You have become a great Jedi Master, Qui-Gon Jinn. I gratefully become your apprentice.",
+            "input": "You|nsubj have|aux become|root a|det great|amod Jedi|compound Master|dobj ,|punct Qui-Gon|compound Jinn|vocative .|punct I|nsubj gratefully|advmod become|root your|poss apprentice|dobj .|punct",
             "output": "A great Jedi Master, you have become, Qui-Gon Jinn. Your apprentice I gratefully become."
         },
         {
-            "input": "We must save them. They are our last hope.",
+            "input": "We|nsubj must|aux save|root them|dobj .|punct They|nsubj are|cop our|poss last|amod hope|root .|punct",
             "output": "Save them, we must. They are our last hope."
         },
         {
-            "input": "She must still appear pregnant. The children must be kept hidden and safe.",
+            "input": "She|nsubj must|aux still|advmod appear|root pregnant|acomp .|punct The|det children|nsubj must|aux be|aux kept|root hidden|acomp and|cc safe|conj .|punct",
             "output": "Pregnant, she must still appear. Hidden, safe, the children must be kept."
         },
         {
-            "input": "They should be split up.",
+            "input": "They|nsubj should|aux be|aux split|root up|prt .|punct",
             "output": "Split up, they should be."
         },
         {
-            "input": "Send him to Tatooine. To his family.",
+            "input": "Send|root him|dobj to|prep Tatooine|pobj .|punct To|prep his|poss family|pobj .|punct",
             "output": "To Tatooine. To his family, send him."
         },
         {
-            "input": "The Force runs strong in the Skywalker line. We can hope... It is done. We will disappear until the time is right.",
+            "input": "The|det Force|nsubj runs|root strong|advmod in|prep the|det Skywalker|compound line|pobj .|punct We|nsubj can|aux hope|root ...|punct It|nsubj is|cop done|root .|punct We|nsubj will|aux disappear|root until|prep the|det time|pobj is|cop right|acomp .|punct",
             "output": "Strong the Force runs, in the Skywalker line. Hope, we can . . . Done, it is. Until the time is right, disappear we will."
         },
         {
-            "input": "Wait a moment, Master Kenobi. I have training for you during your solitude on Tatooine.",
+            "input": "Wait|root a|det moment|dobj ,|punct Master|compound Kenobi|vocative .|punct I|nsubj have|root training|dobj for|prep you|pobj during|prep your|poss solitude|pobj on|prep Tatooine|pobj .|punct",
             "output": "Master Kenobi, wait a moment. In your solitude on Tatooine, training I have for you."
         },
         {
-            "input": "An old friend has learned the path to immortality.",
+            "input": "An|det old|amod friend|nsubj has|aux learned|root the|det path|dobj to|prep immortality|pobj .|punct",
             "output": "An old friend has learned the path to immortality."
         },
         {
-            "input": "Qui-Gon Jinn, your old Master, has returned from the netherworld of the Force to train me.",
+            "input": "Qui-Gon|compound Jinn|nsubj ,|punct your|poss old|amod Master|appos ,|punct has|aux returned|root from|prep the|det netherworld|compound of|prep the|det Force|pobj to|part train|xcomp me|dobj .|punct",
             "output": "One who has returned from the netherworld of the Force to train me . . . your old Master, Qui-Gon Jinn."
         },
         {
-            "input": "He studied the secret of the Ancient Order of the Whills. I will teach you how to commune with him.",
+            "input": "He|nsubj studied|root the|det secret|dobj of|prep the|det Ancient|amod Order|compound of|prep the|det Whills|pobj .|punct I|nsubj will|aux teach|root you|dobj how|advmod to|part commune|advcl with|prep him|pobj .|punct",
             "output": "The secret of the Ancient Order of the Whills, he studied. How to commune with him. I will teach you."
         },
         {
-            "input": "He will train you to join the Force. You will retain your consciousness and perhaps even your physical form.",
+            "input": "He|nsubj will|aux train|root you|dobj to|part join|xcomp the|det Force|dobj .|punct You|nsubj will|aux retain|root your|poss consciousness|dobj and|cc perhaps|advmod even|advmod your|poss physical|amod form|conj .|punct",
             "output": "How to join the Force, he will train you. Your consciousness you will retain, when one with the Force. Even your physical self, perhaps."
         },
         {
-            "input": "Hmm. He has much anger like his father.",
+            "input": "Hmm|intj .|punct He|nsubj has|root much|amod anger|dobj like|prep his|poss father|pobj .|punct",
             "output": "Hmmm. Much anger in him, like his father."
         },
         {
-            "input": "Hah. He is not ready.",
+            "input": "Hah|intj .|punct He|nsubj is|cop not|neg ready|root .|punct",
             "output": "Hah. He is not ready."
         },
         {
-            "input": "Are you ready? What do you know of readiness?",
+            "input": "Are|aux you|nsubj ready|root ?|punct What|dobj do|aux you|nsubj know|root of|prep readiness|pobj ?|punct",
             "output": "Ready, are you? What know you of ready?"
         },
         {
-            "input": "For eight hundred years, I have trained Jedi.",
+            "input": "For|prep eight|nummod hundred|nummod years|pobj ,|punct I|nsubj have|aux trained|root Jedi|dobj .|punct",
             "output": "For eight hundred years have I trained Jedi."
         },
         {
-            "input": "I will decide who is to be trained!",
+            "input": "I|nsubj will|aux decide|root who|dobj is|cop to|part be|aux trained|xcomp !|punct",
             "output": "My own counsel will I keep on who is to be trained!"
         },
         {
-            "input": "A Jedi must have deep commitment and a serious mind.",
+            "input": "A|det Jedi|nsubj must|aux have|root deep|amod commitment|dobj and|cc a|det serious|amod mind|conj .|punct",
             "output": "A Jedi must have the deepest commitment, the most serious mind."
         },
         {
-            "input": "I have watched this one for a long time.",
+            "input": "I|nsubj have|aux watched|root this|det one|dobj for|prep a|det long|amod time|pobj .|punct",
             "output": "This one a long time have I watched."
         },
         {
-            "input": "All his life, he has looked to the future, never focused on the present.",
+            "input": "All|det his|poss life|pobj ,|punct he|nsubj has|aux looked|root to|prep the|det future|pobj ,|punct never|advmod focused|root on|prep the|det present|pobj .|punct",
             "output": "All his life has he looked away... to the future, to the horizon. Never his mind on where he was. Hmm? What he was doing. Hmph. Adventure. Heh! Excitement. Heh! A Jedi craves not these things. You are reckless!"
         },
         {
-            "input": "He is too old to begin training.",
+            "input": "He|nsubj is|cop too|advmod old|acomp to|part begin|xcomp training|dobj .|punct",
             "output": "He is too old. Yes, too old to begin the training."
         },
         {
-            "input": "Will he finish what he starts?",
+            "input": "Will|aux he|nsubj finish|root what|dobj he|nsubj starts|relcl ?|punct",
             "output": "Will he finished what he begins?"
         },
         {
-            "input": "Oh, you will be. You will be.",
+            "input": "Oh|intj ,|punct you|nsubj will|aux be|root .|punct You|nsubj will|aux be|root .|punct",
             "output": "Oh, you will be. You will be."
         },
         {
-            "input": "Run! A Jedi's strength comes from the Force. Beware the dark side—anger, fear, aggression. They flow easily and join you in battle. Starting down the dark path dooms you, as it did Obi-Wan's apprentice.",
+            "input": "Run|root !|punct A|det Jedi's|poss strength|nsubj comes|root from|prep the|det Force|pobj .|punct Beware|root the|det dark|amod side|dobj —|punct anger|nsubj ,|punct fear|conj ,|punct aggression|conj .|punct They|nsubj flow|root easily|advmod and|cc join|conj you|dobj in|prep battle|pobj .|punct Starting|csubj down|prep the|det dark|amod path|pobj dooms|root you|dobj ,|punct as|mark it|nsubj did|root Obi-Wan's|poss apprentice|dobj .|punct",
             "output": "Run! Yes. A Jedi's strength flows from the Force. But beware of the dark side. Anger... fear... aggression. The dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan's apprentice."
         },
         {
-            "input": "No... quicker, easier, more seductive.",
+            "input": "No|intj ...|punct quicker|acomp ,|punct easier|acomp ,|punct more|advmod seductive|acomp .|punct",
             "output": "No... no... no. Quicker, easier, more seductive."
         },
         {
-            "input": "No... it's quicker, easier, more seductive.",
+            "input": "No|intj ...|punct it's|nsubj quicker|acomp ,|punct easier|acomp ,|punct more|advmod seductive|acomp .|punct",
             "output": "No... no... no. Quicker, easier, more seductive."
         },
         {
-            "input": "You will know when you are calm, at peace, and passive. A Jedi uses the Force for knowledge and defense, never for attack.",
+            "input": "You|nsubj will|aux know|root when|advmod you|nsubj are|cop calm|acomp ,|punct at|prep peace|pobj ,|punct and|cc passive|conj .|punct A|det Jedi|nsubj uses|root the|det Force|dobj for|prep knowledge|pobj and|cc defense|conj ,|punct never|advmod for|prep attack|pobj .|punct",
             "output": "You will know. When you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack."
         },
         {
-            "input": "No, there is no 'why.' I will teach you nothing more today. Clear your mind of questions.",
+            "input": "No|intj ,|punct there|expl is|root no|det 'why|nsubj .'|punct I|nsubj will|aux teach|root you|iobj nothing|dobj more|advmod today|npadvmod .|punct Clear|root your|poss mind|dobj of|prep questions|pobj .|punct",
             "output": "No, no, there is no why. Nothing more will I teach you today. Clear your mind of questions. Mmm. Mmmmmmmm."
         },
         {
-            "input": "That place is strong with the dark side. It is a domain of evil. You must go in.",
+            "input": "That|det place|nsubj is|cop strong|acomp with|prep the|det dark|amod side|pobj .|punct It|nsubj is|cop a|det domain|root of|prep evil|pobj .|punct You|nsubj must|aux go|root in|advmod .|punct",
             "output": "That place... is strong with the dark side of the Force. A domain of evil it is. In you must go."
         },
         {
-            "input": "Take only what you need.",
+            "input": "Take|root only|advmod what|dobj you|nsubj need|relcl .|punct",
             "output": "Only what you take with you."
         },
         {
-            "input": "You will not need your weapons.",
+            "input": "You|nsubj will|aux not|neg need|root your|poss weapons|dobj .|punct",
             "output": "Your weapons... you will not need them."
         },
         {
-            "input": "Use the Force. Yes...",
+            "input": "Use|root the|det Force|dobj .|punct Yes|intj ...|punct",
             "output": "Use the Force. Yes..."
         },
         {
-            "input": "Now, feel the stone.",
+            "input": "Now|advmod ,|punct feel|root the|det stone|dobj .|punct",
             "output": "Now... the stone. Feel it."
         },
         {
-            "input": "You are so certain. You always say it cannot be done. Do you hear nothing I say?",
+            "input": "You|nsubj are|cop so|advmod certain|acomp .|punct You|nsubj always|advmod say|root it|nsubj cannot|aux be|aux done|xcomp .|punct Do|aux you|nsubj hear|root nothing|dobj I|nsubj say|relcl ?|punct",
             "output": "So certain are you. Always with you it cannot be done. Hear you nothing that I say?"
         },
         {
-            "input": "No! It is no different! Only in your mind. Unlearn what you have learned.",
+            "input": "No|intj !|punct It|nsubj is|cop no|advmod different|acomp !|punct Only|advmod in|prep your|poss mind|pobj .|punct Unlearn|root what|dobj you|nsubj have|aux learned|relcl .|punct",
             "output": "No! No different! Only different in your mind. You must unlearn what you have learned."
         },
         {
@@ -381,111 +382,111 @@
             "output": "No! Try not. Do. Or do not. There is no try."
         },
         {
-            "input": "Size does not matter. Look at me. Do you judge me by my size?",
+            "input": "Size|nsubj does|aux not|neg matter|root .|punct Look|root at|prep me|pobj .|punct Do|aux you|nsubj judge|root me|dobj by|prep my|poss size|pobj ?|punct",
             "output": "Size matters not. Look at me. Judge me by my size, do you? Hm? Mmmm."
         },
         {
-            "input": "And you should not. The Force is my ally—a powerful one. Life creates and grows it. It surrounds and binds us. We are luminous beings, not crude matter. Feel it everywhere!",
+            "input": "And|cc you|nsubj should|aux not|neg .|punct The|det Force|nsubj is|cop my|poss ally|root —|punct a|det powerful|amod one|attr .|punct Life|nsubj creates|root and|cc grows|conj it|dobj .|punct It|nsubj surrounds|root and|cc binds|conj us|dobj .|punct We|nsubj are|cop luminous|amod beings|root ,|punct not|neg crude|amod matter|conj .|punct Feel|root it|dobj everywhere|advmod !|punct",
             "output": "And well you should not. For my ally in the Force. And a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we... ... not this crude matter. You must feel the Force around you. Here, between you... me... the tree... the rock... everywhere! Yes, even between this land and that ship!"
         },
         {
-            "input": "That is why you fail.",
+            "input": "That|det is|cop why|advmod you|nsubj fail|root .|punct",
             "output": "That is why you fail."
         },
         {
-            "input": "Concentrate and feel the Force flow. Calm yourself. Through it, you will see the past, future, and old friends.",
+            "input": "Concentrate|root and|cc feel|conj the|det Force|nsubj flow|root .|punct Calm|root yourself|dobj .|punct Through|prep it|pobj ,|punct you|nsubj will|aux see|root the|det past|dobj ,|punct future|conj ,|punct and|cc old|amod friends|conj .|punct",
             "output": "Concentrate... feel the Force flow. Yes. Good. Calm, yes. Through the Force, things you will see. Other places. The future... the past. Old friends long gone."
         },
         {
-            "input": "Control! You must learn control.",
+            "input": "Control|root !|punct You|nsubj must|aux learn|root control|dobj .|punct",
             "output": "Hmm. Control, control. You must learn control."
         },
         {
-            "input": "You have friends there.",
+            "input": "You|nsubj have|aux friends|dobj there|advmod .|punct",
             "output": "Mmm. Friends you have there."
         },
         {
-            "input": "You see the future.",
+            "input": "You|nsubj see|root the|det future|dobj .|punct",
             "output": "It is the future you see."
         },
         {
-            "input": "The future is difficult to see. It is always in motion.",
+            "input": "The|det future|nsubj is|cop difficult|acomp to|part see|xcomp .|punct It|nsubj is|cop always|advmod in|prep motion|pobj .|punct",
             "output": "Difficult to see. Always in motion is the future."
         },
         {
-            "input": "You must decide how to best serve them. Leaving now could help them but destroy their sacrifices.",
+            "input": "You|nsubj must|aux decide|root how|advmod to|part best|advmod serve|xcomp them|dobj .|punct Leaving|csubj now|advmod could|aux help|root them|dobj but|cc destroy|conj their|poss sacrifices|dobj .|punct",
             "output": "Decide you must how to serve them best. If you leave now, help them you could. But you would destroy all for which they have fought and suffered."
         },
         {
-            "input": "Luke! Complete your training!",
+            "input": "Luke|vocative !|punct Complete|root your|poss training|dobj !|punct",
             "output": "Luke! You must complete the training."
         },
         {
-            "input": "Do not go!",
+            "input": "Do|aux not|neg go|root !|punct",
             "output": "You must not go!"
         },
         {
-            "input": "Listen to Obi-Wan. Remember your failure at the cave!",
+            "input": "Listen|root to|prep Obi-Wan|pobj .|punct Remember|root your|poss failure|dobj at|prep the|det cave|pobj !|punct",
             "output": "Yes, yes. To Obi-Wan you listen. The cave. Remember your failure at the cave!"
         },
         {
-            "input": "They must be stopped. Everything depends on this. Only a trained Jedi can defeat Vader and the Emperor.",
+            "input": "They|nsubj must|aux be|aux stopped|root .|punct Everything|nsubj depends|root on|prep this|pobj .|punct Only|det a|det trained|amod Jedi|nsubj can|aux defeat|root Vader|dobj and|cc the|det Emperor|conj .|punct",
             "output": "Stopped they must be. On this all depends. Only a fully trained Jedi Knight with the Force as his ally will conquer Vader and his Emperor. If you end your training now, if you choose the quick and easy path, as Vader did, you will become an agent of evil."
         },
         {
-            "input": "If you honor their cause... yes!",
+            "input": "If|sconj you|nsubj honor|root their|poss cause|dobj ...|punct yes|intj !|punct",
             "output": "If you honor what they fight for ... yes!"
         },
         {
-            "input": "Vader is strong. Remember your training. It can save you.",
+            "input": "Vader|nsubj is|cop strong|acomp .|punct Remember|root your|poss training|dobj .|punct It|nsubj can|aux save|root you|dobj .|punct",
             "output": "Strong is Vader. Mind what you have learned. Save you it can."
         },
         {
-            "input": "I told you he is reckless. Now things are worse.",
+            "input": "I|nsubj told|root you|iobj he|nsubj is|cop reckless|acomp .|punct Now|advmod things|nsubj are|cop worse|acomp .|punct",
             "output": "Told you, I did. Reckless is he. Now matters are worse."
         },
         {
-            "input": "No. There is another hope.",
+            "input": "No|intj .|punct There|expl is|root another|det hope|nsubj .|punct",
             "output": "No. There is another."
         },
         {
-            "input": "Do I look so old to your young eyes?",
+            "input": "Do|aux I|nsubj look|root so|advmod old|acomp to|prep your|poss young|amod eyes|pobj ?|punct",
             "output": "Hmm. That face you make. Look I so old to young eyes?"
         },
         {
-            "input": "I will rest soon—forever. I have earned it.",
+            "input": "I|nsubj will|aux rest|root soon|advmod —|punct forever|advmod .|punct I|nsubj have|aux earned|root it|dobj .|punct",
             "output": "Soon will I rest. Yes, forever sleep. Earned it, I have."
         },
         {
-            "input": "I am strong with the Force, but not strong enough. My time is ending. Such is the way of the Force.",
+            "input": "I|nsubj am|cop strong|acomp with|prep the|det Force|pobj ,|punct but|cc not|neg strong|acomp enough|advmod .|punct My|poss time|nsubj is|cop ending|root .|punct Such|det is|cop the|det way|root of|prep the|det Force|pobj .|punct",
             "output": "Strong am I with the Force... but not that strong! Twilight is upon me and soon night must fall. That is the way of things... the way of the Force."
         },
         {
-            "input": "You need no more training. You already know what you must.",
+            "input": "You|nsubj need|root no|det more|amod training|dobj .|punct You|nsubj already|advmod know|root what|dobj you|nsubj must|aux .|punct",
             "output": "No more training do you require. Already know you that which you need."
         },
         {
-            "input": "I need rest. Yes... rest.",
+            "input": "I|nsubj need|root rest|dobj .|punct Yes|intj ...|punct rest|root .|punct",
             "output": "Mmm... rest I need. Yes... rest."
         },
         {
-            "input": "He is your father.",
+            "input": "He|nsubj is|cop your|poss father|root .|punct",
             "output": "Your father he is."
         },
         {
-            "input": "Did he tell you?",
+            "input": "Did|aux he|nsubj tell|root you|iobj ?|punct",
             "output": "Told you, did he?"
         },
         {
-            "input": "This is unexpected and unfortunate...",
+            "input": "This|det is|cop unexpected|acomp and|cc unfortunate|conj ...|punct",
             "output": "Unexpected this is, and unfortunate..."
         },
         {
-            "input": "Remember: A Jedi's strength comes from the Force. But anger, fear, and aggression lead to the dark side.",
+            "input": "Remember|root :|punct A|det Jedi's|poss strength|nsubj comes|root from|prep the|det Force|pobj .|punct But|cc anger|nsubj ,|punct fear|conj ,|punct and|cc aggression|conj lead|root to|prep the|det dark|amod side|pobj .|punct",
             "output": "Remember, a Jedi's strength flows from the Force. But beware. Anger, fear, aggression. The dark side are they. Once you start down the dark path, forever will it dominate your destiny."
         },
         {
-            "input": "Luke... do not underestimate the Emperor. You will suffer your father's fate. When I am gone, you will be the last Jedi. Pass on what you learned. There is another Skywalker.",
+            "input": "Luke|vocative ...|punct do|aux not|neg underestimate|root the|det Emperor|dobj .|punct You|nsubj will|aux suffer|root your|poss father's|poss fate|dobj .|punct When|advmod I|nsubj am|aux gone|root ,|punct you|nsubj will|aux be|cop the|det last|amod Jedi|attr .|punct Pass|root on|prep what|dobj you|nsubj learned|relcl .|punct There|expl is|root another|det Skywalker|nsubj .|punct",
             "output": "Luke...Luke...Do not...Do not underestimate the powers of the Emperor, or suffer your father's fate, you will. Luke, when gone am I , the last of the Jedi will you be. Luke, the Force runs strong in your family. Pass on what you have learned, Luke... There is...another...Sky...Sky...walker."
         }
     ]
