@@ -7,7 +7,12 @@ NC='\033[0m' # No Color
 echo -e "${GREEN}🔧 Installing Python dependencies...${NC}"
 
 # Check if virtual environment exists
-if [ -f "server/venv/Scripts/activate" ]; then
+if [ -f "server/venv/bin/activate" ]; then
+  # macOS/Linux
+  source server/venv/bin/activate
+  echo -e "${GREEN}✅ Virtual environment activated.${NC}"
+elif [ -f "server/venv/Scripts/activate" ]; then
+  # Windows
   source server/venv/Scripts/activate
   echo -e "${GREEN}✅ Virtual environment activated.${NC}"
 else
