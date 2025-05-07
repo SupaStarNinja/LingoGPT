@@ -29,47 +29,48 @@ function App() {
     };
 
     return (
-        <div className="App">
-            <div className="title-container widget">
-                <img
-                    className="yoda-image"
-                    src="../public/yoda_header.png"
-                    alt="Yoda"
-                />
-                <div className="header">
-                    <h1>Yoda Speech Converter</h1>
-                    <p>Transform your text into speech that sounds like Yoda!</p>
-                </div>
-            </div>
-            <div className="widget-group">
-                <div className="input-container widget">
-                    <p>Input</p>
-                    <textarea
-                        className="convert-button"
-                        value={userInput}
-                        onChange={handleInputChange}
-                        placeholder="Type your sentence here..."
-                    />
-                    <button
-                        onClick={handleSubmit}
-                        disabled={isLoading}
-                        className="submit-button"
-                    >
-                        {isLoading ? 'Processing...' : 'Convert to Yoda Speech'}
-                    </button>
-                </div>
+      <div className="App">
+          <div className="title-container widget">
+              <img
+                className="yoda-image"
+                src="../public/yoda_header.png"
+                alt="Yoda"
+              />
+              <div className="header">
+                  <h1>Yoda Speech Converter</h1>
+                  <p>Transform your text into speech that sounds like Yoda!</p>
+              </div>
+          </div>
+          <div className="widget-group">
+              <div className="input-container widget">
+                  <p>Input</p>
+                  <textarea
+                    className="convert-button"
+                    value={userInput}
+                    onChange={handleInputChange}
+                    placeholder="Type your sentence here..."
+                  />
+                  <button
+                    onClick={handleSubmit}
+                    disabled={isLoading}
+                    className="submit-button"
+                  >
+                      {isLoading ? 'Processing...' : 'Convert to Yoda Speech'}
+                  </button>
+              </div>
 
-                <div className="input-container widget">
-                    <p>Output</p>
-                    <textarea
-                        value={yodaSpeech}
-                        readOnly
-                        placeholder="Yoda's wisdom will appear here..."
-                    />
-                </div>
-            </div>
-        </div>
+              <div className="input-container widget">
+                  <p>Output</p>
+                  <textarea
+                    value={yodaSpeech}
+                    readOnly
+                    placeholder="Yoda's wisdom will appear here..."
+                  />
+              </div>
+          </div>
+      </div>
     );
 }
 
 export default App;
+

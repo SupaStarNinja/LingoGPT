@@ -2,143 +2,143 @@
     "examples": [
         {
             "input": "I will teach you everything I know.",
-            "truth": "Teach you everything I know, I will."
+            "output": "Teach you everything I know, I will."
         },
         {
             "input": "You must learn to control your fear.",
-            "truth": "Learn to control your fear, you must."
+            "output": "Learn to control your fear, you must."
         },
         {
             "input": "The dark side clouds everything.",
-            "truth": "Cloud everything, the dark side does."
+            "output": "Cloud everything, the dark side does."
         },
         {
             "input": "Size matters not. Look at me.",
-            "truth": "Matter, size does not. At me, you look."
+            "output": "Matter, size does not. At me, you look."
         },
         {
             "input": "We need to act quickly.",
-            "truth": "Quickly, we must act."
+            "output": "Quickly, we must act."
         },
         {
             "input": "Sometimes, the greatest lessons come from failure.",
-            "truth": "From failure, sometimes the greatest lessons come."
+            "output": "From failure, sometimes the greatest lessons come."
         },
         {
             "input": "Your path to the future depends on your choices.",
-            "truth": "Depends on your choices, your path to the future does."
+            "output": "Depends on your choices, your path to the future does."
         },
         {
             "input": "Happiness can be found even in the darkest of times.",
-            "truth": "Found, happiness can be, even in the darkest of times."
+            "output": "Found, happiness can be, even in the darkest of times."
         },
         {
             "input": "Wisdom comes from experience, not from books.",
-            "truth": "From experience, wisdom comes, not from books."
+            "output": "From experience, wisdom comes, not from books."
         },
         {
             "input": "The force flows through all living things.",
-            "truth": "Through all living things, the force flows."
+            "output": "Through all living things, the force flows."
         },
         {
             "input": "Courage leads to victory.",
-            "truth": "To victory, courage leads."
+            "output": "To victory, courage leads."
         },
         {
             "input": "The journey of a thousand miles begins with a single step.",
-            "truth": "With a single step, the journey of a thousand miles begins."
+            "output": "With a single step, the journey of a thousand miles begins."
         },
         {
             "input": "In the end, we all must face our fate.",
-            "truth": "Face our fate, we all must, in the end."
+            "output": "Face our fate, we all must, in the end."
         },
         {
             "input": "True strength lies in the heart, not in the muscles.",
-            "truth": "In the heart, true strength lies, not in the muscles."
+            "output": "In the heart, true strength lies, not in the muscles."
         },
         {
             "input": "Understanding the universe is a lifelong pursuit.",
-            "truth": "A lifelong pursuit, understanding the universe is."
+            "output": "A lifelong pursuit, understanding the universe is."
         },
         {
             "input": "Do not fear failure; fear being inactive.",
-            "truth": "Fear not failure; fear inaction, you must."
+            "output": "Fear not failure; fear inaction, you must."
         },
         {
             "input": "A wise mind is a powerful ally.",
-            "truth": "A powerful ally, a wise mind is."
+            "output": "A powerful ally, a wise mind is."
         },
         {
             "input": "True victory is measured by the journey, not the destination.",
-            "truth": "By the journey, not by the destination, true victory is measured."
+            "output": "By the journey, not by the destination, true victory is measured."
         },
         {
             "input": "Your mistakes teach you more than your successes.",
-            "truth": "More, your mistakes teach you than your successes."
+            "output": "More, your mistakes teach you than your successes."
         },
         {
             "input": "Believe in yourself, and you can overcome anything.",
-            "truth": "Overcome anything, you can, if in yourself you believe."
+            "output": "Overcome anything, you can, if in yourself you believe."
         },
         {
             "input": "Embrace change, for it is the only constant.",
-            "truth": "For the only constant, change is; embrace it."
+            "output": "For the only constant, change is; embrace it."
         },
         {
             "input": "When you lose hope, you lose everything.",
-            "truth": "Everything, you lose, when hope you lose."
+            "output": "Everything, you lose, when hope you lose."
         },
         {
             "input": "In every end, there is a new beginning.",
-            "truth": "In every end, a new beginning there is."
+            "output": "In every end, a new beginning there is."
         },
         {
             "input": "Compassion is the key to understanding.",
-            "truth": "The key to understanding, compassion is."
+            "output": "The key to understanding, compassion is."
         },
         {
             "input": "If the Sith are involved, the Republic is in danger.",
-            "truth": "The very Republic is threatened, if involved the Sith are."
+            "output": "The very Republic is threatened, if involved the Sith are."
         },
         {
             "input": "The dark side is hard to see. We must discover who this assassin is.",
-            "truth": "Hard to see, the dark side is. Discover who this assassin is, we"
+            "output": "Hard to see, the dark side is. Discover who this assassin is, we"
         },
         {
             "input": "Qui-Gon, you must stay with this Naboo queen and protect her.",
-            "truth": "With this Naboo queen you must stay, Qui-Gon. Protect her."
+            "output": "With this Naboo queen you must stay, Qui-Gon. Protect her."
         },
         {
             "input": "May the Force be with you.",
-            "truth": "May the Force be with you."
+            "output": "May the Force be with you."
         },
         {
             "input": "Master Qui-Gon, do you have anything more to say?",
-            "truth": "Master Qui-Gon more to say have you?"
+            "output": "Master Qui-Gon more to say have you?"
         },
         {
             "input": "Are you saying it's a vergence?",
-            "truth": "A vergence, you say?"
+            "output": "A vergence, you say?"
         },
         {
             "input": "But you do! Your opinion is obvious.",
-            "truth": "But you do! Revealed your opinion is."
+            "output": "But you do! Revealed your opinion is."
         },
         {
             "input": "Are you requesting that he be trained as a Jedi?",
-            "truth": "Trained as a Jedi, you request for him?"
+            "output": "Trained as a Jedi, you request for him?"
         },
         {
             "input": "He will be tested.",
-            "truth": "Tested he will be."
+            "output": "Tested he will be."
         },
         {
             "input": "Good, good, young one. How do you feel?",
-            "truth": "Good, good, young one. How feel you?"
+            "output": "Good, good, young one. How feel you?"
         },
         {
             "input": "The future is in your hands.",
-            "truth": "In your hands, the future is."
+            "output": "In your hands, the future is."
         }
     ]
 }

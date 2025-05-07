@@ -1,37 +1,12 @@
 import json
 import os
 from bert_score import score
+from flask_cors import CORS
+from yoda import Yoda
 
 import requests
 
 
-url = "http://localhost:8080/api/yoda-chat"
-
-def get_response(message):
-    # Prepare the payload with the provided message.
-    payload = {"text": message}
-
-    try:
-        # Send a POST request with the JSON payload to the API.
-        response = requests.post(url, json=payload)
-
-        # Raise an HTTPError if the response status code indicates an error.
-        response.raise_for_status()
-
-        # Parse the JSON response.
-        json_response = response.json()
-
-        # Return the 'response' field if it exists.
-        return json_response.get("response", "No response provided.")
-
-    except requests.HTTPError as http_err:
-        error_message = f"HTTP error occurred: {http_err}"
-        print(error_message)
-        return error_message
-    except Exception as err:
-        error_message = f"Other error occurred: {err}"
-        print(error_message)
-        return error_message
 
 def load_training_data():
     data_dir = os.path.join(os.path.dirname(__file__), 'data')
@@ -43,16 +18,16 @@ def load_training_data():
     return training_pairs
 
 def main():
-
+    yoda = Yoda()
     training = load_training_data()
 
     for text in training:
         human = text['input']
-        predicted = get_response(human)
+        predicted = yoda.translate(human)
         print("response: " + predicted)
         text['predicted'] = predicted
 
-    yoda_texts = [text['truth'] for text in training]
+    yoda_texts = [text['output'] for text in training]
     pred_yoda_texts = [text['predicted'] for text in training]
 
     # Compute BERTScore for the predicted Yoda translations against the ground truth.
@@ -67,7 +42,7 @@ def main():
     # Print individual samples along with their BERTScore F1 values.
     for i, text in enumerate(training):
         human = text['input']
-        yoda = text['truth']
+        yoda = text['output']
         pred_yoda = text['predicted']
         print("Human: " + human)
         print("Yoda: " + yoda)

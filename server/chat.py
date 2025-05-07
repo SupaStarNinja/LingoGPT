@@ -1,1 +1,0 @@
-# This file should be removed as it contains Gemini API code
