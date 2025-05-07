@@ -5,7 +5,18 @@ GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 echo "Activating virtual environment..."
-source server/venv/Scripts/activate
+# Check which activation script exists based on OS
+if [ -f "server/venv/bin/activate" ]; then
+  # macOS/Linux
+  source server/venv/bin/activate
+elif [ -f "server/venv/Scripts/activate" ]; then
+  # Windows
+  source server/venv/Scripts/activate
+else
+  echo -e "${RED}Could not find virtual environment activation script.${NC}"
+  exit 1
+fi
+
 if [ $? -ne 0 ]; then
   echo -e "${RED}Failed to activate virtual environment.${NC}"
   exit 1
