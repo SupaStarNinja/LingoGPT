@@ -487,6 +487,546 @@
         {
             "input": "Luke... do not underestimate the Emperor. You will suffer your father's fate. When I am gone, you will be the last Jedi. Pass on what you learned. There is another Skywalker.",
             "output": "Luke...Luke...Do not...Do not underestimate the powers of the Emperor, or suffer your father's fate, you will. Luke, when gone am I , the last of the Jedi will you be. Luke, the Force runs strong in your family. Pass on what you have learned, Luke... There is...another...Sky...Sky...walker."
+        },
+        {
+            "input": "I need to finish my homework before dinner.",
+            "output": "Before dinner, my homework finish, I must."
+        },
+        {
+            "input": "She always brings cookies to the office.",
+            "output": "To the office, cookies she always brings."
+        },
+        {
+            "input": "Can you help me move this furniture?",
+            "output": "Help me move this furniture, can you?"
+        },
+        {
+            "input": "The children are playing in the garden.",
+            "output": "In the garden, playing the children are."
+        },
+        {
+            "input": "I forgot my keys at home this morning.",
+            "output": "At home this morning, my keys I forgot."
+        },
+        {
+            "input": "We should book our vacation tickets early.",
+            "output": "Early, our vacation tickets book, we should."
+        },
+        {
+            "input": "The restaurant closes at midnight.",
+            "output": "At midnight, close the restaurant does."
+        },
+        {
+            "input": "Please don't forget to call your mother.",
+            "output": "Forget to call your mother, you must not."
+        },
+        {
+            "input": "They won the championship last year.",
+            "output": "Last year, the championship won, they did."
+        },
+        {
+            "input": "I love watching movies on weekends.",
+            "output": "Movies on weekends, love to watch I do."
+        },
+        {
+            "input": "The cat sleeps on the windowsill.",
+            "output": "On the windowsill, sleep the cat does."
+        },
+        {
+            "input": "Have you finished reading that book?",
+            "output": "Finished reading that book, have you?"
+        },
+        {
+            "input": "We need to buy groceries for dinner.",
+            "output": "For dinner, groceries buy we must."
+        },
+        {
+            "input": "The sun rises in the east.",
+            "output": "In the east, rise the sun does."
+        },
+        {
+            "input": "I can't find my glasses anywhere.",
+            "output": "Find my glasses anywhere, I cannot."
+        },
+        {
+            "input": "She wants to learn how to play piano.",
+            "output": "To play piano, learn she wants."
+        },
+        {
+            "input": "The meeting starts at nine o'clock.",
+            "output": "At nine o'clock, start the meeting does."
+        },
+        {
+            "input": "Could you please pass the salt?",
+            "output": "Pass the salt, could you?"
+        },
+        {
+            "input": "They are building a new school downtown.",
+            "output": "Downtown, a new school building, they are."
+        },
+        {
+            "input": "I need to practice more often.",
+            "output": "More often, practice I must."
+        },
+        {
+            "input": "The weather is getting colder.",
+            "output": "Colder, the weather is getting."
+        },
+        {
+            "input": "We should leave before the traffic gets bad.",
+            "output": "Before the traffic bad gets, leave we should."
+        },
+        {
+            "input": "Do you know how to get to the library?",
+            "output": "How to get to the library, know you do?"
+        },
+        {
+            "input": "The cake smells delicious.",
+            "output": "Delicious, smell the cake does."
+        },
+        {
+            "input": "I will call you tomorrow morning.",
+            "output": "Tomorrow morning, call you I will."
+        },
+        {
+            "input": "The museum opens at ten in the morning.",
+            "output": "At ten in the morning, open the museum does."
+        },
+        {
+            "input": "She speaks three different languages.",
+            "output": "Three different languages, speak she does."
+        },
+        {
+            "input": "Would you like some coffee?",
+            "output": "Some coffee, would you like?"
+        },
+        {
+            "input": "The birds sing beautifully in spring.",
+            "output": "In spring, beautifully sing the birds do."
+        },
+        {
+            "input": "I need to fix my bicycle.",
+            "output": "My bicycle, fix I must."
+        },
+        {
+            "input": "They live in a small apartment downtown.",
+            "output": "Downtown in a small apartment, live they do."
+        },
+        {
+            "input": "Can we meet for lunch tomorrow?",
+            "output": "For lunch tomorrow, meet can we?"
+        },
+        {
+            "input": "The movie starts in five minutes.",
+            "output": "In five minutes, start the movie does."
+        },
+        {
+            "input": "She always arrives early to work.",
+            "output": "Early to work, arrive she always does."
+        },
+        {
+            "input": "I forgot to send the email yesterday.",
+            "output": "Yesterday, forgot to send the email, I did."
+        },
+        {
+            "input": "The flowers bloom in spring.",
+            "output": "In spring, bloom the flowers do."
+        },
+        {
+            "input": "We should clean the house before guests arrive.",
+            "output": "Before guests arrive, clean the house we should."
+        },
+        {
+            "input": "Do you remember where you parked the car?",
+            "output": "Where you parked the car, remember do you?"
+        },
+        {
+            "input": "The concert begins at eight sharp.",
+            "output": "At eight sharp, begin the concert does."
+        },
+        {
+            "input": "I need to study for my exam.",
+            "output": "For my exam, study I must."
+        },
+        {
+            "input": "They went shopping at the mall.",
+            "output": "At the mall, shopping they went."
+        },
+        {
+            "input": "Could you help me with this problem?",
+            "output": "With this problem, help me could you?"
+        },
+        {
+            "input": "The dog sleeps in its basket.",
+            "output": "In its basket, sleep the dog does."
+        },
+        {
+            "input": "We must finish this project by Friday.",
+            "output": "By Friday, finish this project we must."
+        },
+        {
+            "input": "I love spending time in nature.",
+            "output": "Time in nature, love to spend I do."
+        },
+        {
+            "input": "The train leaves in ten minutes.",
+            "output": "In ten minutes, leave the train does."
+        },
+        {
+            "input": "She wants to travel the world.",
+            "output": "The world, travel she wants to."
+        },
+        {
+            "input": "Have you seen my phone anywhere?",
+            "output": "My phone anywhere, seen have you?"
+        },
+        {
+            "input": "The package arrives tomorrow.",
+            "output": "Tomorrow, arrive the package does."
+        },
+        {
+            "input": "I need to make a dentist appointment.",
+            "output": "A dentist appointment, make I must."
+        },
+        {
+            "input": "The internet is not working today.",
+            "output": "Today, working the internet is not."
+        },
+        {
+            "input": "She bakes delicious chocolate cookies.",
+            "output": "Delicious chocolate cookies, bake she does."
+        },
+        {
+            "input": "When does the party start?",
+            "output": "Start when, does the party?"
+        },
+        {
+            "input": "The students study in the library.",
+            "output": "In the library, study the students do."
+        },
+        {
+            "input": "I need to wash my car this weekend.",
+            "output": "This weekend, my car wash I must."
+        },
+        {
+            "input": "They plan to visit Paris next summer.",
+            "output": "Next summer, Paris visit they plan to."
+        },
+        {
+            "input": "Can you explain this math problem?",
+            "output": "This math problem, explain can you?"
+        },
+        {
+            "input": "The baby sleeps through the night.",
+            "output": "Through the night, sleep the baby does."
+        },
+        {
+            "input": "We should order pizza for dinner.",
+            "output": "For dinner, pizza order we should."
+        },
+        {
+            "input": "I enjoy reading books in the evening.",
+            "output": "In the evening, books read I enjoy."
+        },
+        {
+            "input": "The store closes at six today.",
+            "output": "At six today, close the store does."
+        },
+        {
+            "input": "She wants to learn photography.",
+            "output": "Photography, learn she wants to."
+        },
+        {
+            "input": "Have you done your homework yet?",
+            "output": "Your homework yet, done have you?"
+        },
+        {
+            "input": "The bus arrives every thirty minutes.",
+            "output": "Every thirty minutes, arrive the bus does."
+        },
+        {
+            "input": "I need to buy new shoes.",
+            "output": "New shoes, buy I must."
+        },
+        {
+            "input": "They celebrate Christmas in December.",
+            "output": "In December, Christmas celebrate they do."
+        },
+        {
+            "input": "Could you open the window?",
+            "output": "The window, open could you?"
+        },
+        {
+            "input": "The fish swim in the pond.",
+            "output": "In the pond, swim the fish do."
+        },
+        {
+            "input": "We must submit the report today.",
+            "output": "Today, submit the report we must."
+        },
+        {
+            "input": "I like drinking coffee in the morning.",
+            "output": "In the morning, coffee drink I like to."
+        },
+        {
+            "input": "The plane departs at midnight.",
+            "output": "At midnight, depart the plane does."
+        },
+        {
+            "input": "She practices piano every day.",
+            "output": "Every day, piano practice she does."
+        },
+        {
+            "input": "Did you remember to lock the door?",
+            "output": "Remember to lock the door, did you?"
+        },
+        {
+            "input": "The leaves fall in autumn.",
+            "output": "In autumn, fall the leaves do."
+        },
+        {
+            "input": "I need to call the doctor.",
+            "output": "The doctor, call I must."
+        },
+        {
+            "input": "We should consider all options before making a decision.",
+            "output": "Before making a decision, all options consider we should."
+        },
+        {
+            "input": "The professor explains complex theories clearly.",
+            "output": "Complex theories clearly, explain the professor does."
+        },
+        {
+            "input": "How often do you exercise?",
+            "output": "Exercise how often, do you?"
+        },
+        {
+            "input": "The chef prepares meals with fresh ingredients.",
+            "output": "With fresh ingredients, meals prepare the chef does."
+        },
+        {
+            "input": "I need to organize my schedule better.",
+            "output": "My schedule better, organize I must."
+        },
+        {
+            "input": "They discussed the project over lunch.",
+            "output": "Over lunch, the project discussed they did."
+        },
+        {
+            "input": "Can you recommend a good restaurant?",
+            "output": "A good restaurant, recommend can you?"
+        },
+        {
+            "input": "The artist paints beautiful landscapes.",
+            "output": "Beautiful landscapes, paint the artist does."
+        },
+        {
+            "input": "We must protect the environment.",
+            "output": "The environment, protect we must."
+        },
+        {
+            "input": "I enjoy listening to classical music.",
+            "output": "Classical music, enjoy listening to I do."
+        },
+        {
+            "input": "The company launches new products annually.",
+            "output": "Annually, new products launch the company does."
+        },
+        {
+            "input": "She teaches mathematics at the university.",
+            "output": "At the university, mathematics teach she does."
+        },
+        {
+            "input": "Have you ever visited Japan?",
+            "output": "Japan, visited have you ever?"
+        },
+        {
+            "input": "The scientists conduct important research.",
+            "output": "Important research, conduct the scientists do."
+        },
+        {
+            "input": "I need to improve my language skills.",
+            "output": "My language skills, improve I must."
+        },
+        {
+            "input": "They perform concerts worldwide.",
+            "output": "Worldwide, concerts perform they do."
+        },
+        {
+            "input": "Could you explain the process again?",
+            "output": "The process again, explain could you?"
+        },
+        {
+            "input": "The athletes train every morning.",
+            "output": "Every morning, train the athletes do."
+        },
+        {
+            "input": "We should respect different cultures.",
+            "output": "Different cultures, respect we should."
+        },
+        {
+            "input": "I love exploring new places.",
+            "output": "New places, love to explore I do."
+        },
+        {
+            "input": "The committee meets twice monthly.",
+            "output": "Twice monthly, meet the committee does."
+        },
+        {
+            "input": "She writes fascinating stories.",
+            "output": "Fascinating stories, write she does."
+        },
+        {
+            "input": "Did you understand the instructions?",
+            "output": "The instructions, understand did you?"
+        },
+        {
+            "input": "The system updates automatically.",
+            "output": "Automatically, update the system does."
+        },
+        {
+            "input": "I need to practice my presentation.",
+            "output": "My presentation, practice I must."
+        },
+        {
+            "input": "The students worked hard all semester, and their grades improved significantly. The professor was very pleased with their progress.",
+            "output": "All semester, hard worked the students did, and significantly, improved their grades did. With their progress, very pleased the professor was."
+        },
+        {
+            "input": "I need to finish this report by tomorrow morning, but I haven't even started gathering the data. The deadline is approaching too quickly.",
+            "output": "By tomorrow morning, this report finish I must, but the data, started gathering I have not. Too quickly, approaching the deadline is."
+        },
+        {
+            "input": "She loves to travel during the summer months, exploring new countries and meeting interesting people. Last year, she visited five different continents.",
+            "output": "During the summer months, love to travel she does, new countries exploring and interesting people meeting. Five different continents, visited she did last year."
+        },
+        {
+            "input": "The company announced major changes to their policy yesterday. Employees must complete additional training before the end of the month.",
+            "output": "Yesterday, major changes to their policy, announced the company did. Before the end of the month, additional training complete, the employees must."
+        },
+        {
+            "input": "Can you help me understand this complex mathematical equation? I've been struggling with it for hours, but nothing seems to make sense.",
+            "output": "This complex mathematical equation, help me understand can you? For hours, struggling with it I have been, but make sense, nothing seems to."
+        },
+        {
+            "input": "The chef prepared an extraordinary meal for the wedding reception. The guests couldn't stop talking about the delicious food and beautiful presentation.",
+            "output": "For the wedding reception, an extraordinary meal prepared the chef did. About the delicious food and beautiful presentation, stop talking the guests could not."
+        },
+        {
+            "input": "We should consider the environmental impact of our actions. Every small change we make today will affect future generations significantly.",
+            "output": "The environmental impact of our actions, consider we should. Future generations significantly affect, every small change today make we do."
+        },
+        {
+            "input": "The museum is hosting a special exhibition of ancient artifacts next month. Historians from around the world will come to study these precious items.",
+            "output": "Next month, a special exhibition of ancient artifacts, hosting the museum is. From around the world, come historians will, these precious items to study."
+        },
+        {
+            "input": "I enjoy reading historical novels in my free time, especially those set in medieval Europe. The detailed descriptions transport me to another era completely.",
+            "output": "In my free time, historical novels enjoy reading I do, those set in medieval Europe, especially. To another era completely, transport me the detailed descriptions do."
+        },
+        {
+            "input": "The research team made a breakthrough discovery in cancer treatment. Their findings could revolutionize how we approach medical therapy.",
+            "output": "In cancer treatment, a breakthrough discovery made the research team has. How we approach medical therapy, revolutionize their findings could."
+        },
+        {
+            "input": "The children spent all afternoon playing in the garden, building sandcastles and chasing butterflies. Their laughter filled the air with joy.",
+            "output": "All afternoon in the garden, spent playing the children did, sandcastles building and butterflies chasing. With joy, their laughter filled the air."
+        },
+        {
+            "input": "We need to implement better security measures for our online systems. Cyber attacks are becoming more sophisticated every day.",
+            "output": "Better security measures for our online systems, implement we must. More sophisticated every day, becoming cyber attacks are."
+        },
+        {
+            "input": "The artist spent months perfecting her latest masterpiece, working tirelessly day and night. The gallery opening next week will showcase her dedication.",
+            "output": "Months perfecting her latest masterpiece, spent the artist did, tirelessly day and night working. Next week, her dedication showcase the gallery opening will."
+        },
+        {
+            "input": "Could you explain how this new software works? I've tried reading the manual, but the instructions are quite confusing.",
+            "output": "How this new software works, explain could you? The manual tried reading I have, but quite confusing the instructions are."
+        },
+        {
+            "input": "The city council approved plans for a new park downtown. Construction will begin in spring, and the project should be completed by next fall.",
+            "output": "Plans for a new park downtown, approved the city council has. In spring, begin construction will, and by next fall, completed the project should be."
+        },
+        {
+            "input": "I love watching the sunset from my balcony every evening. The sky transforms into a beautiful canvas of colors, and the city lights begin to twinkle.",
+            "output": "From my balcony every evening, love watching the sunset I do. Into a beautiful canvas of colors, transform the sky does, and to twinkle, begin the city lights do."
+        },
+        {
+            "input": "The conference room was packed with eager participants this morning. Everyone wanted to hear the keynote speaker's presentation about artificial intelligence.",
+            "output": "This morning, with eager participants packed the conference room was. The keynote speaker's presentation about artificial intelligence, hear everyone wanted to."
+        },
+        {
+            "input": "She dedicated years to studying marine biology, conducting research in various oceans. Her work has contributed significantly to our understanding of coral reefs.",
+            "output": "Years to studying marine biology dedicated she did, in various oceans research conducting. To our understanding of coral reefs, significantly contributed her work has."
+        },
+        {
+            "input": "The old bookstore on Main Street holds thousands of rare volumes. Many collectors travel from distant cities just to browse its dusty shelves.",
+            "output": "On Main Street, thousands of rare volumes hold the old bookstore does. From distant cities, travel many collectors do, its dusty shelves just to browse."
+        },
+        {
+            "input": "We must find a solution to this problem before the deadline expires. The client is expecting results, and we cannot disappoint them.",
+            "output": "Before the deadline expires, a solution to this problem find we must. Results expecting the client is, and disappoint them we cannot."
+        },
+        {
+            "input": "The scientists have been conducting experiments in the laboratory for months, trying to understand the strange phenomenon they discovered. Their latest findings suggest a breakthrough might be imminent.",
+            "output": "For months in the laboratory, experiments conducting the scientists have been, the strange phenomenon they discovered trying to understand. A breakthrough might be imminent, suggest their latest findings do."
+        },
+        {
+            "input": "Despite the heavy rain and strong winds, the construction team continued working on the bridge project. They knew the importance of meeting the deadline, even under challenging conditions.",
+            "output": "Despite the heavy rain and strong winds, on the bridge project continue working the construction team did. The importance of meeting the deadline knew they did, even under challenging conditions."
+        },
+        {
+            "input": "The young pianist practiced diligently for years, mastering complex pieces and developing her own unique style. When she finally performed at Carnegie Hall, the audience was completely mesmerized.",
+            "output": "For years, diligently practiced the young pianist did, complex pieces mastering and her own unique style developing. At Carnegie Hall when finally performed she did, completely mesmerized the audience was."
+        },
+        {
+            "input": "The ancient manuscript contained secrets that had been lost for centuries. Scholars from various universities collaborated to decipher its mysterious text, hoping to unlock the wisdom of past civilizations.",
+            "output": "Secrets lost for centuries, contain the ancient manuscript did. To decipher its mysterious text, collaborate scholars from various universities did, the wisdom of past civilizations hoping to unlock."
+        },
+        {
+            "input": "We should implement sustainable practices in our daily lives to protect the environment. Small changes in our habits can lead to significant improvements, and future generations will benefit from our efforts.",
+            "output": "In our daily lives, sustainable practices implement we should, the environment to protect. To significant improvements lead small changes in our habits can, and from our efforts, benefit future generations will."
+        },
+        {
+            "input": "The software development team worked through numerous challenges to complete the project on time. Their innovative solution not only met the client's requirements but also exceeded their expectations in terms of performance.",
+            "output": "Through numerous challenges worked the software development team did, on time the project to complete. The client's requirements not only met their innovative solution did, but in terms of performance, exceed their expectations it did also."
+        },
+        {
+            "input": "The documentary filmmaker spent three years capturing footage in remote locations around the world. Her dedication to telling authentic stories has earned her multiple awards and international recognition.",
+            "output": "Three years capturing footage in remote locations around the world, spent the documentary filmmaker did. Multiple awards and international recognition earned her dedication to telling authentic stories has."
+        },
+        {
+            "input": "Could you explain the complex relationship between climate change and ocean currents? I've read several articles on the subject, but the interconnections remain unclear to me.",
+            "output": "The complex relationship between climate change and ocean currents, explain could you? Several articles on the subject read I have, but unclear to me the interconnections remain."
+        },
+        {
+            "input": "The restaurant's new chef combines traditional cooking methods with modern techniques, creating unique and flavorful dishes. His innovative approach has attracted food critics from across the country.",
+            "output": "Traditional cooking methods with modern techniques combines the restaurant's new chef does, unique and flavorful dishes creating. From across the country, food critics attracted his innovative approach has."
+        },
+        {
+            "input": "The university's research program has made significant advances in renewable energy technology. Their latest prototype demonstrates remarkable efficiency, and several companies have expressed interest in commercialization.",
+            "output": "In renewable energy technology, significant advances made the university's research program has. Remarkable efficiency demonstrates their latest prototype does, and in commercialization, interest expressed several companies have."
+        },
+        {
+            "input": "I need to organize my schedule better to balance work and personal life. Sometimes it feels overwhelming, but with proper planning and time management, I believe it's possible.",
+            "output": "Better organize my schedule I must, work and personal life to balance. Overwhelming it feels sometimes, but with proper planning and time management, possible it is, believe I do."
+        },
+        {
+            "input": "The art gallery's latest exhibition features works from emerging artists around the globe. Visitors can experience diverse perspectives and cultural influences through various mediums and styles.",
+            "output": "Works from emerging artists around the globe, feature the art gallery's latest exhibition does. Diverse perspectives and cultural influences experience visitors can, through various mediums and styles."
+        },
+        {
+            "input": "The medical researchers have discovered a promising new treatment for chronic pain conditions. Clinical trials will begin next month, and patients are eagerly awaiting the results.",
+            "output": "A promising new treatment for chronic pain conditions, discovered the medical researchers have. Next month begin clinical trials will, and the results eagerly awaiting patients are."
+        },
+        {
+            "input": "The historical society has been working tirelessly to preserve ancient artifacts and documents. Their efforts ensure that future generations can learn from and appreciate our shared cultural heritage.",
+            "output": "To preserve ancient artifacts and documents, tirelessly working the historical society has been. That future generations can learn from and appreciate our shared cultural heritage, ensure their efforts do."
+        },
+        {
+            "input": "We must address the growing challenges of cybersecurity in our increasingly connected world. As technology advances, new threats emerge daily, and our defense systems must evolve accordingly.",
+            "output": "The growing challenges of cybersecurity in our increasingly connected world, address we must. Daily emerge new threats do as technology advances, and accordingly evolve our defense systems must."
         }
     ]
 }
